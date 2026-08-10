@@ -35,7 +35,9 @@ the third-party STEP files.
 ## Full input verification
 
 Third-party STEP files are not redistributed. Acquire them from the recorded
-sources, arrange them as described in `real_cad/THIRD_PARTY_INPUTS.md`, then run:
+sources and reconstruct the input tree using
+`real_cad/COLLECTION_STATUS_2026-08-10.md`, the source receipt CSV files, and
+`real_cad/selected_model_manifest_v1.csv`, then run:
 
 ```bash
 export GRADIENT_QEF_CAD_ROOT=/absolute/path/to/CAD_Tests_Models
@@ -65,4 +67,3 @@ analytic proofs.
 
 Release checksums are in `SHA256SUMS.txt`. The intended public repository is
 <https://github.com/Jeremy-Pei/gradient-qef-contracts-artifact>.
-
