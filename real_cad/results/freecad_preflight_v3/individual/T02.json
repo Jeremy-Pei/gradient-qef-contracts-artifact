@@ -1,0 +1,76 @@
+{
+  "bbox": {
+    "diagonal": 150.35813143292253,
+    "max": [
+      40.89400000000001,
+      20.32,
+      20.32
+    ],
+    "min": [
+      -61.46800000000001,
+      -82.04200000000002,
+      -20.320000000000004
+    ]
+  },
+  "brep_closure": {
+    "all_shells_closed": true,
+    "all_solids_closed": true,
+    "closed_shells": 1,
+    "open_shells": 0
+  },
+  "brep_volume": {
+    "all_solids_positive": true,
+    "nonpositive_solids": 0,
+    "per_solid": [
+      59222.64126461405
+    ],
+    "positive_solids": 1,
+    "total_signed": 59222.64126461405
+  },
+  "corpus_id": "T02",
+  "elapsed_seconds": 0.24243700000079116,
+  "exit_code": 0,
+  "expected_sha256": "d3f4876b2f4660daaba091e27a40159aa55b30014d88913fae61b7f5bd976452",
+  "failure_stage": "",
+  "full_shape_auxiliary": {
+    "closed_shells": 1,
+    "non_solid_shells": 0,
+    "open_shells": 0,
+    "shells": 1
+  },
+  "input_path": "${GRADIENT_QEF_CAD_ROOT}/TraceParts/T02_MAS-3000-EL90-P12/T02_MAS-3000-EL90-P12_AP242.stp",
+  "is_null": false,
+  "kernel": {
+    "frontend": "FreeCAD",
+    "frontend_version": "1.1.1",
+    "name": "OpenCascade",
+    "version": "7.8.1"
+  },
+  "model_name": "Lokring 90-degree elbow",
+  "no_healing_or_sewing": true,
+  "observed_sha256": "d3f4876b2f4660daaba091e27a40159aa55b30014d88913fae61b7f5bd976452",
+  "official_split": "",
+  "runner_status": "completed",
+  "schema": "topic4.freecad_step_preflight.v1",
+  "shape_type": "Solid",
+  "solid_subset_topology": {
+    "edges": 103,
+    "faces": 50,
+    "vertices": 67
+  },
+  "source_group": "TraceParts",
+  "stderr_tail": "",
+  "stdout_tail": "TOPIC4_FREECAD_PREFLIGHT={\"schema\": \"topic4.freecad_step_preflight.v1\", \"corpus_id\": \"T02\", \"source_group\": \"TraceParts\", \"input_path\": \"${GRADIENT_QEF_CAD_ROOT}/TraceParts/T02_MAS-3000-EL90-P12/T02_MAS-3000-EL90-P12_AP242.stp\", \"tool_ok\": true, \"failure_stage\": \"\", \"kernel\": {\"frontend\": \"FreeCAD\", \"frontend_version\": \"1.1.1\", \"name\": \"OpenCascade\", \"version\": \"7.8.1\"}, \"no_healing_or_sewing\": true, \"shape_type\": \"Solid\", \"is_null\": false, \"validity\": {\"shape_valid\": true, \"all_solids_valid\": true}, \"topology\": {\"solids\": 1, \"shells\": 1, \"faces\": 50, \"edges\": 103, \"vertices\": 67}, \"solid_subset_topology\": {\"faces\": 50, \"edges\": 103, \"vertices\": 67}, \"brep_closure\": {\"closed_shells\": 1, \"open_shells\": 0, \"all_shells_closed\": true, \"all_solids_closed\": true}, \"full_shape_auxiliary\": {\"shells\": 1, \"closed_shells\": 1, \"open_shells\": 0, \"non_solid_shells\": 0}, \"brep_volume\": {\"per_solid\": [59222.64126461405], \"total_signed\": 59222.64126461405, \"positive_solids\": 1, \"nonpositive_solids\": 0, \"all_solids_positive\": true}, \"bbox\": {\"min\": [-61.46800000000001, -82.04200000000002, -20.320000000000004], \"max\": [40.89400000000001, 20.32, 20.32], \"diagonal\": 150.35813143292253}, \"elapsed_seconds\": 0.033963042000323185}\nFreeCAD 1.1.1, Libs: 1.1.1R20260414 (Git shallow)\n(C) 2001-2026 FreeCAD contributors\nFreeCAD is free and open-source software licensed under the terms of LGPL2+ license.\n\n",
+  "tool_ok": true,
+  "topology": {
+    "edges": 103,
+    "faces": 50,
+    "shells": 1,
+    "solids": 1,
+    "vertices": 67
+  },
+  "validity": {
+    "all_solids_valid": true,
+    "shape_valid": true
+  }
+}

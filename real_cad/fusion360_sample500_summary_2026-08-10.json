@@ -1,0 +1,25 @@
+{
+  "all_selected_have_step_end_marker": true,
+  "archive_bytes": 506333119,
+  "archive_file": "${GRADIENT_QEF_CAD_ROOT}/Fusion360Gallery/s2.0.1_extended_step/source_archive.zip",
+  "archive_sha256": "9bebcf0722951bef166c2160cda6e2d3225692b90a90d7dc9cf34dd80fc5a39e",
+  "dataset": "Fusion 360 Gallery Segmentation Extended STEP Dataset",
+  "distinct_step_sha256": 500,
+  "license_scope": "non-commercial research; do not redistribute the dataset in its entirety",
+  "official_archive_url": "https://fusion-360-gallery-dataset.s3.us-west-2.amazonaws.com/segmentation/s2.0.1/s2.0.1_extended_step.zip",
+  "official_split_sizes": {
+    "test": 6454,
+    "train": 36458
+  },
+  "population_step_count": 42912,
+  "sample_root": "${GRADIENT_QEF_CAD_ROOT}/Fusion360Gallery/s2.0.1_extended_step/sample_500",
+  "sample_size": 500,
+  "sample_split_counts": {
+    "test": 75,
+    "train": 425
+  },
+  "selection_method": "lowest SHA-256(seed + NUL + model_id) within each split",
+  "selection_seed": "GradientQEF-Fusion360-s2.0.1-v1",
+  "validation_scope": "ZIP integrity and STEP text audit only; kernel validation pending",
+  "version": "s2.0.1"
+}

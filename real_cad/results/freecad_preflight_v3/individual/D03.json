@@ -1,0 +1,77 @@
+{
+  "bbox": {
+    "diagonal": 311.2482174918768,
+    "max": [
+      217.22946969096043,
+      96.92964200037136,
+      50.0
+    ],
+    "min": [
+      -38.284,
+      -50.0,
+      -50.0
+    ]
+  },
+  "brep_closure": {
+    "all_shells_closed": true,
+    "all_solids_closed": true,
+    "closed_shells": 2,
+    "open_shells": 0
+  },
+  "brep_volume": {
+    "all_solids_positive": true,
+    "nonpositive_solids": 0,
+    "per_solid": [
+      299534.9566745879,
+      154129.8802517843
+    ],
+    "positive_solids": 2,
+    "total_signed": 453664.83692637226
+  },
+  "corpus_id": "D03",
+  "elapsed_seconds": 0.8200450840013218,
+  "exit_code": 0,
+  "expected_sha256": "e7881a338b650e50f1f490f59a585cabc3da0182aaba429a0715163f87d31873",
+  "failure_stage": "",
+  "full_shape_auxiliary": {
+    "closed_shells": 2,
+    "non_solid_shells": 0,
+    "open_shells": 0,
+    "shells": 2
+  },
+  "input_path": "${GRADIENT_QEF_CAD_ROOT}/3Dfindit/D03_BENE_INOX_664376-40/D03_BENE_INOX_664376-40_OPEN_AP242.stp",
+  "is_null": false,
+  "kernel": {
+    "frontend": "FreeCAD",
+    "frontend_version": "1.1.1",
+    "name": "OpenCascade",
+    "version": "7.8.1"
+  },
+  "model_name": "Two-way ball valve square flange",
+  "no_healing_or_sewing": true,
+  "observed_sha256": "e7881a338b650e50f1f490f59a585cabc3da0182aaba429a0715163f87d31873",
+  "official_split": "",
+  "runner_status": "completed",
+  "schema": "topic4.freecad_step_preflight.v1",
+  "shape_type": "Compound",
+  "solid_subset_topology": {
+    "edges": 1224,
+    "faces": 458,
+    "vertices": 813
+  },
+  "source_group": "3Dfindit",
+  "stderr_tail": "",
+  "stdout_tail": "TOPIC4_FREECAD_PREFLIGHT={\"schema\": \"topic4.freecad_step_preflight.v1\", \"corpus_id\": \"D03\", \"source_group\": \"3Dfindit\", \"input_path\": \"${GRADIENT_QEF_CAD_ROOT}/3Dfindit/D03_BENE_INOX_664376-40/D03_BENE_INOX_664376-40_OPEN_AP242.stp\", \"tool_ok\": true, \"failure_stage\": \"\", \"kernel\": {\"frontend\": \"FreeCAD\", \"frontend_version\": \"1.1.1\", \"name\": \"OpenCascade\", \"version\": \"7.8.1\"}, \"no_healing_or_sewing\": true, \"shape_type\": \"Compound\", \"is_null\": false, \"validity\": {\"shape_valid\": true, \"all_solids_valid\": true}, \"topology\": {\"solids\": 2, \"shells\": 2, \"faces\": 458, \"edges\": 1224, \"vertices\": 813}, \"solid_subset_topology\": {\"faces\": 458, \"edges\": 1224, \"vertices\": 813}, \"brep_closure\": {\"closed_shells\": 2, \"open_shells\": 0, \"all_shells_closed\": true, \"all_solids_closed\": true}, \"full_shape_auxiliary\": {\"shells\": 2, \"closed_shells\": 2, \"open_shells\": 0, \"non_solid_shells\": 0}, \"brep_volume\": {\"per_solid\": [299534.9566745879, 154129.8802517843], \"total_signed\": 453664.83692637226, \"positive_solids\": 2, \"nonpositive_solids\": 0, \"all_solids_positive\": true}, \"bbox\": {\"min\": [-38.284, -50.0, -50.0], \"max\": [217.22946969096043, 96.92964200037136, 50.0], \"diagonal\": 311.2482174918768}, \"elapsed_seconds\": 0.6017204170002515}\nFreeCAD 1.1.1, Libs: 1.1.1R20260414 (Git shallow)\n(C) 2001-2026 FreeCAD contributors\nFreeCAD is free and open-source software licensed under the terms of LGPL2+ license.\n\n",
+  "tool_ok": true,
+  "topology": {
+    "edges": 1224,
+    "faces": 458,
+    "shells": 2,
+    "solids": 2,
+    "vertices": 813
+  },
+  "validity": {
+    "all_solids_valid": true,
+    "shape_valid": true
+  }
+}

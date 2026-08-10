@@ -1,0 +1,87 @@
+{
+  "bbox": {
+    "diagonal": 464.2864904032713,
+    "max": [
+      144.33762195500762,
+      156.29431284048275,
+      90.05491839984526
+    ],
+    "min": [
+      -179.35744658627073,
+      -156.29431284048275,
+      -24.2770494303695
+    ]
+  },
+  "brep_closure": {
+    "all_shells_closed": true,
+    "all_solids_closed": true,
+    "closed_shells": 12,
+    "open_shells": 0
+  },
+  "brep_volume": {
+    "all_solids_positive": true,
+    "nonpositive_solids": 0,
+    "per_solid": [
+      479463.8945699917,
+      1239.0772240081888,
+      1239.1049739542646,
+      1239.0497072328624,
+      1239.0998182680407,
+      1239.03022705834,
+      1239.06973635279,
+      1239.0492005785368,
+      1239.105194512468,
+      1239.068476266812,
+      1239.0694084373981,
+      1239.0790003426796
+    ],
+    "positive_solids": 12,
+    "total_signed": 493093.6975370041
+  },
+  "corpus_id": "G05",
+  "elapsed_seconds": 2.6742503749992466,
+  "exit_code": 0,
+  "expected_sha256": "a022fd92a470634866f5ee216757731cd7060e2e21318fd86b78566781b9bed9",
+  "failure_stage": "",
+  "full_shape_auxiliary": {
+    "closed_shells": 12,
+    "non_solid_shells": 0,
+    "open_shells": 0,
+    "shells": 12
+  },
+  "input_path": "${GRADIENT_QEF_CAD_ROOT}/GrabCAD/G05_Jet_Impeller/G05_Jet_Impeller.step",
+  "is_null": false,
+  "kernel": {
+    "frontend": "FreeCAD",
+    "frontend_version": "1.1.1",
+    "name": "OpenCascade",
+    "version": "7.8.1"
+  },
+  "model_name": "Jet Impeller",
+  "no_healing_or_sewing": true,
+  "observed_sha256": "a022fd92a470634866f5ee216757731cd7060e2e21318fd86b78566781b9bed9",
+  "official_split": "",
+  "runner_status": "completed",
+  "schema": "topic4.freecad_step_preflight.v1",
+  "shape_type": "Compound",
+  "solid_subset_topology": {
+    "edges": 1907,
+    "faces": 476,
+    "vertices": 1257
+  },
+  "source_group": "GrabCAD",
+  "stderr_tail": "",
+  "stdout_tail": "TOPIC4_FREECAD_PREFLIGHT={\"schema\": \"topic4.freecad_step_preflight.v1\", \"corpus_id\": \"G05\", \"source_group\": \"GrabCAD\", \"input_path\": \"${GRADIENT_QEF_CAD_ROOT}/GrabCAD/G05_Jet_Impeller/G05_Jet_Impeller.step\", \"tool_ok\": true, \"failure_stage\": \"\", \"kernel\": {\"frontend\": \"FreeCAD\", \"frontend_version\": \"1.1.1\", \"name\": \"OpenCascade\", \"version\": \"7.8.1\"}, \"no_healing_or_sewing\": true, \"shape_type\": \"Compound\", \"is_null\": false, \"validity\": {\"shape_valid\": true, \"all_solids_valid\": true}, \"topology\": {\"solids\": 12, \"shells\": 12, \"faces\": 476, \"edges\": 1907, \"vertices\": 1257}, \"solid_subset_topology\": {\"faces\": 476, \"edges\": 1907, \"vertices\": 1257}, \"brep_closure\": {\"closed_shells\": 12, \"open_shells\": 0, \"all_shells_closed\": true, \"all_solids_closed\": true}, \"full_shape_auxiliary\": {\"shells\": 12, \"closed_shells\": 12, \"open_shells\": 0, \"non_solid_shells\": 0}, \"brep_volume\": {\"per_solid\": [479463.8945699917, 1239.0772240081888, 1239.1049739542646, 1239.0497072328624, 1239.0998182680407, 1239.03022705834, 1239.06973635279, 1239.0492005785368, 1239.105194512468, 1239.068476266812, 1239.0694084373981, 1239.0790003426796], \"total_signed\": 493093.6975370041, \"positive_solids\": 12, \"nonpositive_solids\": 0, \"all_solids_positive\": true}, \"bbox\": {\"min\": [-179.35744658627073, -156.29431284048275, -24.2770494303695], \"max\": [144.33762195500762, 156.29431284048275, 90.05491839984526], \"diagonal\": 464.2864904032713}, \"elapsed_seconds\": 2.4507865409996157}\nFreeCAD 1.1.1, Libs: 1.1.1R20260414 (Git shallow)\n(C) 2001-2026 FreeCAD contributors\nFreeCAD is free and open-source software licensed under the terms of LGPL2+ license.\n\n",
+  "tool_ok": true,
+  "topology": {
+    "edges": 1907,
+    "faces": 476,
+    "shells": 12,
+    "solids": 12,
+    "vertices": 1257
+  },
+  "validity": {
+    "all_solids_valid": true,
+    "shape_valid": true
+  }
+}

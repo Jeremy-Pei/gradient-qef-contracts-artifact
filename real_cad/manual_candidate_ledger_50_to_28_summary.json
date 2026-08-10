@@ -1,0 +1,73 @@
+{
+  "decision_reason_counts": {
+    "excluded_duplicate_ap203_pmi_prefer_ap242": 5,
+    "excluded_duplicate_geometry_only_ap203_prefer_ap242": 11,
+    "excluded_outside_preregistered_stc_ctc_core_single_ftc11_replacement": 6,
+    "selected_pre_registered_manual_stratum": 17,
+    "selected_pre_registered_stc_ctc_core_or_ftc11_replacement": 11
+  },
+  "excluded": 22,
+  "generated_utc": "2026-08-10T13:46:06.309939+00:00",
+  "group_counts": {
+    "3D ContentCentral": {
+      "candidates": 4,
+      "excluded": 0,
+      "selected": 4
+    },
+    "3Dfindit": {
+      "candidates": 4,
+      "excluded": 0,
+      "selected": 4
+    },
+    "GrabCAD": {
+      "candidates": 5,
+      "excluded": 0,
+      "selected": 5
+    },
+    "NIST": {
+      "candidates": 33,
+      "excluded": 22,
+      "selected": 11
+    },
+    "TraceParts": {
+      "candidates": 4,
+      "excluded": 0,
+      "selected": 4
+    }
+  },
+  "nist_archive": "corpus_v1/originals/nist/_archives/NIST-PMI-STEP-Files.zip",
+  "nist_archive_sha256": "8fa78429e6d8d9b0d7681d223b6aa9ec98c3772185c55b1a0e3679b21c181911",
+  "schema": "topic4.manual_candidate_ledger.v1",
+  "selected": 28,
+  "selected_corpus_ids": [
+    "C01",
+    "C02",
+    "C03",
+    "C04",
+    "D01",
+    "D02",
+    "D03",
+    "D04",
+    "G01",
+    "G02",
+    "G03",
+    "G04",
+    "G05",
+    "N01",
+    "N02",
+    "N03",
+    "N04",
+    "N05",
+    "N06",
+    "N07",
+    "N08",
+    "N09",
+    "N10",
+    "N11R",
+    "T01",
+    "T02",
+    "T03",
+    "T04"
+  ],
+  "total_candidates": 50
+}

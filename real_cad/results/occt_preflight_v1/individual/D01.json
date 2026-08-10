@@ -1,0 +1,94 @@
+{
+  "admission": {
+    "dual_contouring_candidate": false
+  },
+  "bbox": {
+    "diagonal": 162.39140935303203,
+    "max": [
+      61.97594413717853,
+      69.00802551504074,
+      55.55802551504073
+    ],
+    "min": [
+      -39.5127705624508,
+      7.981524519476574,
+      -55.55802551504073
+    ]
+  },
+  "brep_closure": {
+    "all_shells_closed": true,
+    "closed_shells": 5,
+    "open_shells": 0
+  },
+  "brep_volume": {
+    "all_solids_positive": true,
+    "epsilon": 4.28241895697021e-09,
+    "nonpositive_solids": 0,
+    "positive_solids": 5,
+    "total_absolute": 160514.74456515268,
+    "total_signed": 160514.74456515268
+  },
+  "corpus_id": "D01",
+  "elapsed_seconds": 0.701925042,
+  "exit_code": 0,
+  "expected_sha256": "16b9104ab339c2ea8e0564485711ce43526b8445b17a9f6d9b15ce7ada7801ed",
+  "full_shape_auxiliary": {
+    "closed_shells": 5,
+    "non_solid_shells": 0,
+    "open_shells": 0,
+    "shells": 5
+  },
+  "input_path": "${GRADIENT_QEF_CAD_ROOT}/3Dfindit/D01_SKF_FNL_505_A/D01_SKF_FNL_505_A_AP242.stp",
+  "kernel": {
+    "draw_linked": false,
+    "name": "OpenCascade",
+    "version": "7.9.3"
+  },
+  "mesh": {
+    "boundary_edges": 0,
+    "connected_components": 4,
+    "degenerate_triangles_removed": 8,
+    "edge_manifold": false,
+    "meshing_done": true,
+    "nonmanifold_edges": 97,
+    "positive_signed_volume": true,
+    "raw_vertices": 13498,
+    "signed_volume": 160224.0961026942,
+    "surface_area": 48096.28422379887,
+    "triangles": 15470,
+    "unique_edges": 23108,
+    "watertight": true,
+    "weld_tolerance": 1.6239140935303205e-07,
+    "welded_vertices": 7646
+  },
+  "model_name": "SKF FNL flanged housing",
+  "observed_sha256": "16b9104ab339c2ea8e0564485711ce43526b8445b17a9f6d9b15ce7ada7801ed",
+  "official_split": "",
+  "rejection_reason": "mesh_nonmanifold",
+  "runner_status": "completed",
+  "schema": "topic4.occt_step_preflight.v1",
+  "source_group": "3Dfindit",
+  "stderr_tail": "",
+  "stdout_tail": "",
+  "step": {
+    "roots": 1,
+    "transferred_roots": 1
+  },
+  "tool_ok": true,
+  "topology": {
+    "compounds": 1,
+    "compsolids": 0,
+    "edges": 1700,
+    "faces": 308,
+    "shells": 5,
+    "solids": 5,
+    "vertices": 3400
+  },
+  "validity": {
+    "invalid_faces": 0,
+    "invalid_shells": 0,
+    "invalid_solids": 0,
+    "shape_valid": true,
+    "solid_subset_valid": true
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "bbox": {
+    "diagonal": 724.2573501824174,
+    "max": [
+      191.04690293031905,
+      178.00000000000003,
+      390.06374315196854
+    ],
+    "min": [
+      -191.04690293031908,
+      -178.0,
+      -111.75000000000007
+    ]
+  },
+  "brep_closure": {
+    "all_shells_closed": true,
+    "all_solids_closed": true,
+    "closed_shells": 2,
+    "open_shells": 0
+  },
+  "brep_volume": {
+    "all_solids_positive": true,
+    "nonpositive_solids": 0,
+    "per_solid": [
+      2052464.6618834762
+    ],
+    "positive_solids": 1,
+    "total_signed": 2052464.6618834762
+  },
+  "corpus_id": "C04",
+  "elapsed_seconds": 17.07942387500043,
+  "exit_code": 0,
+  "expected_sha256": "ecc920585562b59885a0fcabbd3a87eaadb9cbcc1ec379fd2e4c35922b47c38a",
+  "failure_stage": "",
+  "full_shape_auxiliary": {
+    "closed_shells": 2,
+    "non_solid_shells": 0,
+    "open_shells": 0,
+    "shells": 2
+  },
+  "input_path": "${GRADIENT_QEF_CAD_ROOT}/3DContentCentral/C04_S7215_2_5/C04_S7215_2_5_AP214.step",
+  "is_null": false,
+  "kernel": {
+    "frontend": "FreeCAD",
+    "frontend_version": "1.1.1",
+    "name": "OpenCascade",
+    "version": "7.8.1"
+  },
+  "model_name": "VSI 2.5-inch S7215 2-Way Ball Valve",
+  "no_healing_or_sewing": true,
+  "observed_sha256": "ecc920585562b59885a0fcabbd3a87eaadb9cbcc1ec379fd2e4c35922b47c38a",
+  "official_split": "",
+  "runner_status": "completed",
+  "schema": "topic4.freecad_step_preflight.v1",
+  "shape_type": "Solid",
+  "solid_subset_topology": {
+    "edges": 3413,
+    "faces": 1317,
+    "vertices": 2143
+  },
+  "source_group": "3D ContentCentral",
+  "stderr_tail": "",
+  "stdout_tail": "TOPIC4_FREECAD_PREFLIGHT={\"schema\": \"topic4.freecad_step_preflight.v1\", \"corpus_id\": \"C04\", \"source_group\": \"3D ContentCentral\", \"input_path\": \"${GRADIENT_QEF_CAD_ROOT}/3DContentCentral/C04_S7215_2_5/C04_S7215_2_5_AP214.step\", \"tool_ok\": true, \"failure_stage\": \"\", \"kernel\": {\"frontend\": \"FreeCAD\", \"frontend_version\": \"1.1.1\", \"name\": \"OpenCascade\", \"version\": \"7.8.1\"}, \"no_healing_or_sewing\": true, \"shape_type\": \"Solid\", \"is_null\": false, \"validity\": {\"shape_valid\": true, \"all_solids_valid\": true}, \"topology\": {\"solids\": 1, \"shells\": 2, \"faces\": 1317, \"edges\": 3413, \"vertices\": 2143}, \"solid_subset_topology\": {\"faces\": 1317, \"edges\": 3413, \"vertices\": 2143}, \"brep_closure\": {\"closed_shells\": 2, \"open_shells\": 0, \"all_shells_closed\": true, \"all_solids_closed\": true}, \"full_shape_auxiliary\": {\"shells\": 2, \"closed_shells\": 2, \"open_shells\": 0, \"non_solid_shells\": 0}, \"brep_volume\": {\"per_solid\": [2052464.6618834762], \"total_signed\": 2052464.6618834762, \"positive_solids\": 1, \"nonpositive_solids\": 0, \"all_solids_positive\": true}, \"bbox\": {\"min\": [-191.04690293031908, -178.0, -111.75000000000007], \"max\": [191.04690293031905, 178.00000000000003, 390.06374315196854], \"diagonal\": 724.2573501824174}, \"elapsed_seconds\": 16.650072750000618}\nFreeCAD 1.1.1, Libs: 1.1.1R20260414 (Git shallow)\n(C) 2001-2026 FreeCAD contributors\nFreeCAD is free and open-source software licensed under the terms of LGPL2+ license.\n\n",
+  "tool_ok": true,
+  "topology": {
+    "edges": 3413,
+    "faces": 1317,
+    "shells": 2,
+    "solids": 1,
+    "vertices": 2143
+  },
+  "validity": {
+    "all_solids_valid": true,
+    "shape_valid": true
+  }
+}

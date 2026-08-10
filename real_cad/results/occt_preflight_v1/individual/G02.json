@@ -1,0 +1,94 @@
+{
+  "admission": {
+    "dual_contouring_candidate": true
+  },
+  "bbox": {
+    "diagonal": 72.62919554834681,
+    "max": [
+      55.0000001,
+      45.0000001,
+      15.0000001
+    ],
+    "min": [
+      -1e-07,
+      -1e-07,
+      -1e-07
+    ]
+  },
+  "brep_closure": {
+    "all_shells_closed": true,
+    "closed_shells": 1,
+    "open_shells": 0
+  },
+  "brep_volume": {
+    "all_solids_positive": true,
+    "epsilon": 3.8311900985847255e-10,
+    "nonpositive_solids": 0,
+    "positive_solids": 1,
+    "total_absolute": 27113.69480670796,
+    "total_signed": 27113.69480670796
+  },
+  "corpus_id": "G02",
+  "elapsed_seconds": 0.036131083,
+  "exit_code": 0,
+  "expected_sha256": "5d44c7884afa3b52e65ae572c52823d5826b36ba57f3eadea41c26d64a90894e",
+  "full_shape_auxiliary": {
+    "closed_shells": 1,
+    "non_solid_shells": 0,
+    "open_shells": 0,
+    "shells": 1
+  },
+  "input_path": "${GRADIENT_QEF_CAD_ROOT}/GrabCAD/G02_Slotted_Adjustment_Bracket/G02_Slotted_Adjustment_Bracket.step",
+  "kernel": {
+    "draw_linked": false,
+    "name": "OpenCascade",
+    "version": "7.9.3"
+  },
+  "mesh": {
+    "boundary_edges": 0,
+    "connected_components": 1,
+    "degenerate_triangles_removed": 0,
+    "edge_manifold": true,
+    "meshing_done": true,
+    "nonmanifold_edges": 0,
+    "positive_signed_volume": true,
+    "raw_vertices": 960,
+    "signed_volume": 27120.646268070814,
+    "surface_area": 9302.917943901768,
+    "triangles": 932,
+    "unique_edges": 1398,
+    "watertight": true,
+    "weld_tolerance": 7.262919554834682e-08,
+    "welded_vertices": 456
+  },
+  "model_name": "Multi-Purpose Slotted Adjustment Bracket",
+  "observed_sha256": "5d44c7884afa3b52e65ae572c52823d5826b36ba57f3eadea41c26d64a90894e",
+  "official_split": "",
+  "rejection_reason": "admitted",
+  "runner_status": "completed",
+  "schema": "topic4.occt_step_preflight.v1",
+  "source_group": "GrabCAD",
+  "stderr_tail": "",
+  "stdout_tail": "",
+  "step": {
+    "roots": 1,
+    "transferred_roots": 1
+  },
+  "tool_ok": true,
+  "topology": {
+    "compounds": 0,
+    "compsolids": 0,
+    "edges": 144,
+    "faces": 26,
+    "shells": 1,
+    "solids": 1,
+    "vertices": 288
+  },
+  "validity": {
+    "invalid_faces": 0,
+    "invalid_shells": 0,
+    "invalid_solids": 0,
+    "shape_valid": true,
+    "solid_subset_valid": true
+  }
+}

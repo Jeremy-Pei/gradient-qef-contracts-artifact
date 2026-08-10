@@ -1,0 +1,74 @@
+{
+  "baseline_mesh": {
+    "boundary_edges": 0,
+    "degenerate_triangles": 0,
+    "max_abs_surface_distance": 5.570025790148558,
+    "max_abs_surface_distance_cell_units": 0.5847796105142843,
+    "mean_abs_surface_distance": 0.38414984695540905,
+    "mean_abs_surface_distance_cell_units": 0.04033069259374373,
+    "nonmanifold_edges": 39,
+    "signed_volume": 3313429.6803884436,
+    "triangles": 7588,
+    "vertices": 3745
+  },
+  "configuration": {
+    "lambda": 0.1,
+    "padding_voxels": 2,
+    "resolution": 32,
+    "tau_cell_units": 0.1
+  },
+  "contract_fallback_mesh": {
+    "boundary_edges": 0,
+    "degenerate_triangles": 0,
+    "max_abs_surface_distance": 8.073181849460719,
+    "max_abs_surface_distance_cell_units": 0.8475781469250098,
+    "mean_abs_surface_distance": 1.7228290368880241,
+    "mean_abs_surface_distance_cell_units": 0.1808744395682965,
+    "nonmanifold_edges": 39,
+    "signed_volume": 3335547.424829988,
+    "triangles": 7588,
+    "vertices": 3745
+  },
+  "contract_semantics": "oracle diagnostic only; measured mesh projection and normal errors are not deployable upstream certificates",
+  "corpus_id": "N01",
+  "elapsed_seconds": 0.142805584,
+  "exit_code": 0,
+  "expected_sha256": "71777c28da76da0e8a667e4cbe792d5f72c09b5c56440c9744d3d50ca96ecc8d",
+  "grid": {
+    "nx": 31,
+    "ny": 37,
+    "nz": 16,
+    "voxel_size": 9.525
+  },
+  "input_path": "${LOCAL_PROJECT_ROOT}/g-p-6a39e656c2e8819185c3e09837052bc0/research/topic4_v5/real_cad_experiment/corpus_v1/originals/nist/N01/nist_stc_06_asme1_ap242-e3.stp",
+  "method": "uniform-grid dual contouring with regularized per-cell QEF",
+  "model_name": "STC-06",
+  "pipeline_elapsed_seconds": 0.44353804200000013,
+  "qef": {
+    "active_cells": 3745,
+    "bound_violations": 0,
+    "certified_oracle_diagnostic": 1625,
+    "coverage": 0.43391188251001334,
+    "median_bound_cell_units": 6.047529025895744,
+    "median_measured_displacement_cell_units": 0.06538783138913143,
+    "median_normal_angle_error_degrees": 0.012652073896654471,
+    "median_root_position_error_cell_units": 3.438782331310633e-15,
+    "outside_cell_vertices": 516,
+    "p95_bound_cell_units": 81.0303854755902,
+    "p95_measured_displacement_cell_units": 0.49272706127018845,
+    "p95_normal_angle_error_degrees": 38.20762536412697,
+    "p95_root_position_error_cell_units": 0.056462421843163704,
+    "unknown_oracle_diagnostic": 2120
+  },
+  "resolution": 32,
+  "runner_status": "completed",
+  "schema": "topic4.regular_grid_dc.v1",
+  "source_group": "NIST",
+  "source_mesh": {
+    "triangles": 11030,
+    "vertices": 5497
+  },
+  "stderr_tail": "",
+  "stdout_tail": "",
+  "tool_ok": true
+}

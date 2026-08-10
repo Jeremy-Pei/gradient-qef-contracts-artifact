@@ -1,0 +1,76 @@
+{
+  "bbox": {
+    "diagonal": 33.128988469835605,
+    "max": [
+      10.055393194824456,
+      9.99441086358272,
+      8.5666378830709
+    ],
+    "min": [
+      -10.054995774945311,
+      -9.99441086358272,
+      -8.5666378830709
+    ]
+  },
+  "brep_closure": {
+    "all_shells_closed": true,
+    "all_solids_closed": true,
+    "closed_shells": 1,
+    "open_shells": 0
+  },
+  "brep_volume": {
+    "all_solids_positive": true,
+    "nonpositive_solids": 0,
+    "per_solid": [
+      3007.664641151626
+    ],
+    "positive_solids": 1,
+    "total_signed": 3007.664641151626
+  },
+  "corpus_id": "F320",
+  "elapsed_seconds": 0.21893749999981083,
+  "exit_code": 0,
+  "expected_sha256": "97f6e4c6f67fb1ec0f22f7f7a0bd381ed6cef5bfd173dc14feb2e78ce669b220",
+  "failure_stage": "",
+  "full_shape_auxiliary": {
+    "closed_shells": 1,
+    "non_solid_shells": 0,
+    "open_shells": 0,
+    "shells": 1
+  },
+  "input_path": "${GRADIENT_QEF_CAD_ROOT}/Fusion360Gallery/s2.0.1_extended_step/sample_500/step/52882_4fbf7593_7.stp",
+  "is_null": false,
+  "kernel": {
+    "frontend": "FreeCAD",
+    "frontend_version": "1.1.1",
+    "name": "OpenCascade",
+    "version": "7.8.1"
+  },
+  "model_name": "52882_4fbf7593_7",
+  "no_healing_or_sewing": true,
+  "observed_sha256": "97f6e4c6f67fb1ec0f22f7f7a0bd381ed6cef5bfd173dc14feb2e78ce669b220",
+  "official_split": "train",
+  "runner_status": "completed",
+  "schema": "topic4.freecad_step_preflight.v1",
+  "shape_type": "Solid",
+  "solid_subset_topology": {
+    "edges": 23,
+    "faces": 7,
+    "vertices": 17
+  },
+  "source_group": "Fusion360Gallery",
+  "stderr_tail": "",
+  "stdout_tail": "TOPIC4_FREECAD_PREFLIGHT={\"schema\": \"topic4.freecad_step_preflight.v1\", \"corpus_id\": \"F320\", \"source_group\": \"Fusion360Gallery\", \"input_path\": \"${GRADIENT_QEF_CAD_ROOT}/Fusion360Gallery/s2.0.1_extended_step/sample_500/step/52882_4fbf7593_7.stp\", \"tool_ok\": true, \"failure_stage\": \"\", \"kernel\": {\"frontend\": \"FreeCAD\", \"frontend_version\": \"1.1.1\", \"name\": \"OpenCascade\", \"version\": \"7.8.1\"}, \"no_healing_or_sewing\": true, \"shape_type\": \"Solid\", \"is_null\": false, \"validity\": {\"shape_valid\": true, \"all_solids_valid\": true}, \"topology\": {\"solids\": 1, \"shells\": 1, \"faces\": 7, \"edges\": 23, \"vertices\": 17}, \"solid_subset_topology\": {\"faces\": 7, \"edges\": 23, \"vertices\": 17}, \"brep_closure\": {\"closed_shells\": 1, \"open_shells\": 0, \"all_shells_closed\": true, \"all_solids_closed\": true}, \"full_shape_auxiliary\": {\"shells\": 1, \"closed_shells\": 1, \"open_shells\": 0, \"non_solid_shells\": 0}, \"brep_volume\": {\"per_solid\": [3007.664641151626], \"total_signed\": 3007.664641151626, \"positive_solids\": 1, \"nonpositive_solids\": 0, \"all_solids_positive\": true}, \"bbox\": {\"min\": [-10.054995774945311, -9.99441086358272, -8.5666378830709], \"max\": [10.055393194824456, 9.99441086358272, 8.5666378830709], \"diagonal\": 33.128988469835605}, \"elapsed_seconds\": 0.02355895799883001}\nFreeCAD 1.1.1, Libs: 1.1.1R20260414 (Git shallow)\n(C) 2001-2026 FreeCAD contributors\nFreeCAD is free and open-source software licensed under the terms of LGPL2+ license.\n\n",
+  "tool_ok": true,
+  "topology": {
+    "edges": 23,
+    "faces": 7,
+    "shells": 1,
+    "solids": 1,
+    "vertices": 17
+  },
+  "validity": {
+    "all_solids_valid": true,
+    "shape_valid": true
+  }
+}

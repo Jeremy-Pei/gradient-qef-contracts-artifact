@@ -1,0 +1,74 @@
+{
+  "baseline_mesh": {
+    "boundary_edges": 0,
+    "degenerate_triangles": 0,
+    "max_abs_surface_distance": 1.0588644752640073,
+    "max_abs_surface_distance_cell_units": 0.5982073939558672,
+    "mean_abs_surface_distance": 0.07939932323704074,
+    "mean_abs_surface_distance_cell_units": 0.04485679078396426,
+    "nonmanifold_edges": 23,
+    "signed_volume": 50053.96675703337,
+    "triangles": 10188,
+    "vertices": 5067
+  },
+  "configuration": {
+    "lambda": 0.1,
+    "padding_voxels": 2,
+    "resolution": 32,
+    "tau_cell_units": 0.1
+  },
+  "contract_fallback_mesh": {
+    "boundary_edges": 0,
+    "degenerate_triangles": 0,
+    "max_abs_surface_distance": 1.3756378970371461,
+    "max_abs_surface_distance_cell_units": 0.7771691095863259,
+    "mean_abs_surface_distance": 0.4376937194263583,
+    "mean_abs_surface_distance_cell_units": 0.24727585575444838,
+    "nonmanifold_edges": 23,
+    "signed_volume": 50142.96704851526,
+    "triangles": 10188,
+    "vertices": 5067
+  },
+  "contract_semantics": "oracle diagnostic only; measured mesh projection and normal errors are not deployable upstream certificates",
+  "corpus_id": "T03",
+  "elapsed_seconds": 0.143731958,
+  "exit_code": 0,
+  "expected_sha256": "5f4e1fd4987f71c4cb6b42ba209bf8e36c1a8fdb0b3cfcf4247ccb62136b426a",
+  "grid": {
+    "nx": 37,
+    "ny": 37,
+    "nz": 30,
+    "voxel_size": 1.7700625
+  },
+  "input_path": "${GRADIENT_QEF_CAD_ROOT}/TraceParts/T03_5EFL008REM/T03_5EFL008REM_AP242.stp",
+  "method": "uniform-grid dual contouring with regularized per-cell QEF",
+  "model_name": "Stafford Flange Adapter Max",
+  "pipeline_elapsed_seconds": 0.44808200000079523,
+  "qef": {
+    "active_cells": 5067,
+    "bound_violations": 0,
+    "certified_oracle_diagnostic": 1165,
+    "coverage": 0.22991908427077165,
+    "median_bound_cell_units": 7.319909650360684,
+    "median_measured_displacement_cell_units": 0.07057884559670093,
+    "median_normal_angle_error_degrees": 2.6066869014314253,
+    "median_root_position_error_cell_units": 0.00023553761082350448,
+    "outside_cell_vertices": 620,
+    "p95_bound_cell_units": 104.37759551976944,
+    "p95_measured_displacement_cell_units": 0.5908656926893137,
+    "p95_normal_angle_error_degrees": 46.496765849971815,
+    "p95_root_position_error_cell_units": 0.1469088053221167,
+    "unknown_oracle_diagnostic": 3902
+  },
+  "resolution": 32,
+  "runner_status": "completed",
+  "schema": "topic4.regular_grid_dc.v1",
+  "source_group": "TraceParts",
+  "source_mesh": {
+    "triangles": 6894,
+    "vertices": 3443
+  },
+  "stderr_tail": "",
+  "stdout_tail": "",
+  "tool_ok": true
+}

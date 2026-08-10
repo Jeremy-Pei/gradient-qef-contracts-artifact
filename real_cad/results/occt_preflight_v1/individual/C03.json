@@ -1,0 +1,94 @@
+{
+  "admission": {
+    "dual_contouring_candidate": true
+  },
+  "bbox": {
+    "diagonal": 366.22078043462756,
+    "max": [
+      152.40000010000003,
+      165.18296074432405,
+      124.52717179897573
+    ],
+    "min": [
+      -12.70000009999995,
+      -32.99556798418915,
+      -135.44382794351398
+    ]
+  },
+  "brep_closure": {
+    "all_shells_closed": true,
+    "closed_shells": 1,
+    "open_shells": 0
+  },
+  "brep_volume": {
+    "all_solids_positive": true,
+    "epsilon": 4.9116674123376984e-08,
+    "nonpositive_solids": 0,
+    "positive_solids": 1,
+    "total_absolute": 80542.66422932189,
+    "total_signed": 80542.66422932189
+  },
+  "corpus_id": "C03",
+  "elapsed_seconds": 0.206277875,
+  "exit_code": 0,
+  "expected_sha256": "7fac346b2bc22b12adcb0136e8dcc9ad89adaceac8b81757948dbd94a40a73c2",
+  "full_shape_auxiliary": {
+    "closed_shells": 1,
+    "non_solid_shells": 0,
+    "open_shells": 0,
+    "shells": 1
+  },
+  "input_path": "${GRADIENT_QEF_CAD_ROOT}/3DContentCentral/C03_Moderate_Mounting_Bracket/C03_Moderate_Mounting_Bracket_AP214.step",
+  "kernel": {
+    "draw_linked": false,
+    "name": "OpenCascade",
+    "version": "7.9.3"
+  },
+  "mesh": {
+    "boundary_edges": 0,
+    "connected_components": 1,
+    "degenerate_triangles_removed": 0,
+    "edge_manifold": true,
+    "meshing_done": true,
+    "nonmanifold_edges": 0,
+    "positive_signed_volume": true,
+    "raw_vertices": 3214,
+    "signed_volume": 80529.9382988124,
+    "surface_area": 89308.24513768124,
+    "triangles": 2868,
+    "unique_edges": 4302,
+    "watertight": true,
+    "weld_tolerance": 3.6622078043462756e-07,
+    "welded_vertices": 1412
+  },
+  "model_name": "SOLIDWORKS Part Reviewer Mounting Bracket",
+  "observed_sha256": "7fac346b2bc22b12adcb0136e8dcc9ad89adaceac8b81757948dbd94a40a73c2",
+  "official_split": "",
+  "rejection_reason": "admitted",
+  "runner_status": "completed",
+  "schema": "topic4.occt_step_preflight.v1",
+  "source_group": "3D ContentCentral",
+  "stderr_tail": "",
+  "stdout_tail": "",
+  "step": {
+    "roots": 1,
+    "transferred_roots": 1
+  },
+  "tool_ok": true,
+  "topology": {
+    "compounds": 0,
+    "compsolids": 0,
+    "edges": 962,
+    "faces": 197,
+    "shells": 1,
+    "solids": 1,
+    "vertices": 1924
+  },
+  "validity": {
+    "invalid_faces": 0,
+    "invalid_shells": 0,
+    "invalid_solids": 0,
+    "shape_valid": true,
+    "solid_subset_valid": true
+  }
+}

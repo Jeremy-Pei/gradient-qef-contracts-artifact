@@ -1,0 +1,74 @@
+{
+  "baseline_mesh": {
+    "boundary_edges": 0,
+    "degenerate_triangles": 0,
+    "max_abs_surface_distance": 4.217295620212071,
+    "max_abs_surface_distance_cell_units": 0.5191096702489288,
+    "mean_abs_surface_distance": 0.7152087223569976,
+    "mean_abs_surface_distance_cell_units": 0.08803550840555706,
+    "nonmanifold_edges": 3,
+    "signed_volume": 574.9922669142891,
+    "triangles": 192,
+    "vertices": 114
+  },
+  "configuration": {
+    "lambda": 0.1,
+    "padding_voxels": 2,
+    "resolution": 32,
+    "tau_cell_units": 0.1
+  },
+  "contract_fallback_mesh": {
+    "boundary_edges": 0,
+    "degenerate_triangles": 0,
+    "max_abs_surface_distance": 6.476928205027244,
+    "max_abs_surface_distance_cell_units": 0.7972493198303717,
+    "mean_abs_surface_distance": 2.9189364330270267,
+    "mean_abs_surface_distance_cell_units": 0.3592937905429662,
+    "nonmanifold_edges": 3,
+    "signed_volume": 9651.554825973024,
+    "triangles": 192,
+    "vertices": 114
+  },
+  "contract_semantics": "oracle diagnostic only; measured mesh projection and normal errors are not deployable upstream certificates",
+  "corpus_id": "C03",
+  "elapsed_seconds": 0.0359315,
+  "exit_code": 0,
+  "expected_sha256": "7fac346b2bc22b12adcb0136e8dcc9ad89adaceac8b81757948dbd94a40a73c2",
+  "grid": {
+    "nx": 26,
+    "ny": 30,
+    "nz": 37,
+    "voxel_size": 8.124093735702804
+  },
+  "input_path": "${GRADIENT_QEF_CAD_ROOT}/3DContentCentral/C03_Moderate_Mounting_Bracket/C03_Moderate_Mounting_Bracket_AP214.step",
+  "method": "uniform-grid dual contouring with regularized per-cell QEF",
+  "model_name": "SOLIDWORKS Part Reviewer Mounting Bracket",
+  "pipeline_elapsed_seconds": 0.36066037499949744,
+  "qef": {
+    "active_cells": 114,
+    "bound_violations": 0,
+    "certified_oracle_diagnostic": 0,
+    "coverage": 0,
+    "median_bound_cell_units": 67.91428724266889,
+    "median_measured_displacement_cell_units": 0.3714728644528006,
+    "median_normal_angle_error_degrees": 26.50279166428062,
+    "median_root_position_error_cell_units": 0.020022844018598055,
+    "outside_cell_vertices": 30,
+    "p95_bound_cell_units": 157.8378817920551,
+    "p95_measured_displacement_cell_units": 0.6741095118108615,
+    "p95_normal_angle_error_degrees": 78.47301957763554,
+    "p95_root_position_error_cell_units": 0.10739818860991308,
+    "unknown_oracle_diagnostic": 114
+  },
+  "resolution": 32,
+  "runner_status": "completed",
+  "schema": "topic4.regular_grid_dc.v1",
+  "source_group": "3D ContentCentral",
+  "source_mesh": {
+    "triangles": 2868,
+    "vertices": 1412
+  },
+  "stderr_tail": "",
+  "stdout_tail": "",
+  "tool_ok": true
+}

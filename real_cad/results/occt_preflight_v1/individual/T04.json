@@ -1,0 +1,94 @@
+{
+  "admission": {
+    "dual_contouring_candidate": false
+  },
+  "bbox": {
+    "diagonal": 167.9504548386265,
+    "max": [
+      46.11697234501988,
+      -152.63345885511885,
+      -36.487831815817806
+    ],
+    "min": [
+      -110.63117327032515,
+      -203.62362064602615,
+      -68.69617742979204
+    ]
+  },
+  "brep_closure": {
+    "all_shells_closed": true,
+    "closed_shells": 10,
+    "open_shells": 0
+  },
+  "brep_volume": {
+    "all_solids_positive": true,
+    "epsilon": 4.737438149154964e-09,
+    "nonpositive_solids": 0,
+    "positive_solids": 1,
+    "total_absolute": 170992.5955738668,
+    "total_signed": 170992.5955738668
+  },
+  "corpus_id": "T04",
+  "elapsed_seconds": 1.201530125,
+  "exit_code": 0,
+  "expected_sha256": "b474ac801743adce2e7517120f0cd89911ccffa4a3deb2a921b121b08db3b211",
+  "full_shape_auxiliary": {
+    "closed_shells": 10,
+    "non_solid_shells": 0,
+    "open_shells": 0,
+    "shells": 10
+  },
+  "input_path": "${GRADIENT_QEF_CAD_ROOT}/TraceParts/T04_L2103AAWR-A/T04_L2103AAWR-A_AP242.stp",
+  "kernel": {
+    "draw_linked": false,
+    "name": "OpenCascade",
+    "version": "7.9.3"
+  },
+  "mesh": {
+    "boundary_edges": 0,
+    "connected_components": 10,
+    "degenerate_triangles_removed": 6,
+    "edge_manifold": false,
+    "meshing_done": true,
+    "nonmanifold_edges": 5,
+    "positive_signed_volume": true,
+    "raw_vertices": 19518,
+    "signed_volume": 171030.6735924341,
+    "surface_area": 30879.34272385472,
+    "triangles": 19924,
+    "unique_edges": 29881,
+    "watertight": true,
+    "weld_tolerance": 1.6795045483862651e-07,
+    "welded_vertices": 9960
+  },
+  "model_name": "Automatic Valve L21",
+  "observed_sha256": "b474ac801743adce2e7517120f0cd89911ccffa4a3deb2a921b121b08db3b211",
+  "official_split": "",
+  "rejection_reason": "mesh_nonmanifold",
+  "runner_status": "completed",
+  "schema": "topic4.occt_step_preflight.v1",
+  "source_group": "TraceParts",
+  "stderr_tail": "",
+  "stdout_tail": "",
+  "step": {
+    "roots": 1,
+    "transferred_roots": 1
+  },
+  "tool_ok": true,
+  "topology": {
+    "compounds": 0,
+    "compsolids": 0,
+    "edges": 3964,
+    "faces": 774,
+    "shells": 10,
+    "solids": 1,
+    "vertices": 7928
+  },
+  "validity": {
+    "invalid_faces": 0,
+    "invalid_shells": 0,
+    "invalid_solids": 0,
+    "shape_valid": true,
+    "solid_subset_valid": true
+  }
+}

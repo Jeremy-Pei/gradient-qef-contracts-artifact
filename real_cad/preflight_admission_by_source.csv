@@ -1,0 +1,7 @@
+source_group,total,admitted,mesh_boundary,mesh_nonmanifold,rejected
+3D ContentCentral,4,4,0,0,0
+3Dfindit,4,1,0,3,3
+Fusion360Gallery,500,489,8,3,11
+GrabCAD,5,4,0,1,1
+NIST,11,11,0,0,0
+TraceParts,4,2,0,2,2

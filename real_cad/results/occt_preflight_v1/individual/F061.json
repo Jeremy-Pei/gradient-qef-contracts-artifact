@@ -1,0 +1,94 @@
+{
+  "admission": {
+    "dual_contouring_candidate": true
+  },
+  "bbox": {
+    "diagonal": 32.19761501550057,
+    "max": [
+      7.692307792307701,
+      10.00000009999998,
+      10.00000009999998
+    ],
+    "min": [
+      -7.692307792307691,
+      -10.00000009999998,
+      -10.00000009999998
+    ]
+  },
+  "brep_closure": {
+    "all_shells_closed": true,
+    "closed_shells": 1,
+    "open_shells": 0
+  },
+  "brep_volume": {
+    "all_solids_positive": true,
+    "epsilon": 3.337883000747665e-11,
+    "nonpositive_solids": 0,
+    "positive_solids": 1,
+    "total_absolute": 4833.2194670612025,
+    "total_signed": 4833.2194670612025
+  },
+  "corpus_id": "F061",
+  "elapsed_seconds": 0.005100584,
+  "exit_code": 0,
+  "expected_sha256": "3c68bc3e207fca7d6586fd9fdda8fa11477f8879df512531e817e4ce834c3865",
+  "full_shape_auxiliary": {
+    "closed_shells": 1,
+    "non_solid_shells": 0,
+    "open_shells": 0,
+    "shells": 1
+  },
+  "input_path": "${GRADIENT_QEF_CAD_ROOT}/Fusion360Gallery/s2.0.1_extended_step/sample_500/step/31642_61133335_4.stp",
+  "kernel": {
+    "draw_linked": false,
+    "name": "OpenCascade",
+    "version": "7.9.3"
+  },
+  "mesh": {
+    "boundary_edges": 0,
+    "connected_components": 1,
+    "degenerate_triangles_removed": 0,
+    "edge_manifold": true,
+    "meshing_done": true,
+    "nonmanifold_edges": 0,
+    "positive_signed_volume": true,
+    "raw_vertices": 226,
+    "signed_volume": 4823.08512445016,
+    "surface_area": 1593.138003188589,
+    "triangles": 220,
+    "unique_edges": 330,
+    "watertight": true,
+    "weld_tolerance": 3.219761501550057e-08,
+    "welded_vertices": 112
+  },
+  "model_name": "31642_61133335_4",
+  "observed_sha256": "3c68bc3e207fca7d6586fd9fdda8fa11477f8879df512531e817e4ce834c3865",
+  "official_split": "test",
+  "rejection_reason": "admitted",
+  "runner_status": "completed",
+  "schema": "topic4.occt_step_preflight.v1",
+  "source_group": "Fusion360Gallery",
+  "stderr_tail": "",
+  "stdout_tail": "",
+  "step": {
+    "roots": 1,
+    "transferred_roots": 1
+  },
+  "tool_ok": true,
+  "topology": {
+    "compounds": 0,
+    "compsolids": 0,
+    "edges": 6,
+    "faces": 3,
+    "shells": 1,
+    "solids": 1,
+    "vertices": 12
+  },
+  "validity": {
+    "invalid_faces": 0,
+    "invalid_shells": 0,
+    "invalid_solids": 0,
+    "shape_valid": true,
+    "solid_subset_valid": true
+  }
+}

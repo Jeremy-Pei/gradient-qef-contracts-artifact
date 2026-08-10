@@ -1,0 +1,80 @@
+{
+  "bbox": {
+    "diagonal": 162.3643633226942,
+    "max": [
+      61.967918622137795,
+      69.0,
+      55.55
+    ],
+    "min": [
+      -39.50474504741006,
+      7.98955003451731,
+      -55.55
+    ]
+  },
+  "brep_closure": {
+    "all_shells_closed": true,
+    "all_solids_closed": true,
+    "closed_shells": 5,
+    "open_shells": 0
+  },
+  "brep_volume": {
+    "all_solids_positive": true,
+    "nonpositive_solids": 0,
+    "per_solid": [
+      114904.8008682304,
+      43958.559714377305,
+      550.4613275149968,
+      550.461327514997,
+      550.4613275149969
+    ],
+    "positive_solids": 5,
+    "total_signed": 160514.74456515268
+  },
+  "corpus_id": "D01",
+  "elapsed_seconds": 0.689114332999452,
+  "exit_code": 0,
+  "expected_sha256": "16b9104ab339c2ea8e0564485711ce43526b8445b17a9f6d9b15ce7ada7801ed",
+  "failure_stage": "",
+  "full_shape_auxiliary": {
+    "closed_shells": 5,
+    "non_solid_shells": 0,
+    "open_shells": 0,
+    "shells": 5
+  },
+  "input_path": "${GRADIENT_QEF_CAD_ROOT}/3Dfindit/D01_SKF_FNL_505_A/D01_SKF_FNL_505_A_AP242.stp",
+  "is_null": false,
+  "kernel": {
+    "frontend": "FreeCAD",
+    "frontend_version": "1.1.1",
+    "name": "OpenCascade",
+    "version": "7.8.1"
+  },
+  "model_name": "SKF FNL flanged housing",
+  "no_healing_or_sewing": true,
+  "observed_sha256": "16b9104ab339c2ea8e0564485711ce43526b8445b17a9f6d9b15ce7ada7801ed",
+  "official_split": "",
+  "runner_status": "completed",
+  "schema": "topic4.freecad_step_preflight.v1",
+  "shape_type": "Compound",
+  "solid_subset_topology": {
+    "edges": 854,
+    "faces": 308,
+    "vertices": 566
+  },
+  "source_group": "3Dfindit",
+  "stderr_tail": "",
+  "stdout_tail": "TOPIC4_FREECAD_PREFLIGHT={\"schema\": \"topic4.freecad_step_preflight.v1\", \"corpus_id\": \"D01\", \"source_group\": \"3Dfindit\", \"input_path\": \"${GRADIENT_QEF_CAD_ROOT}/3Dfindit/D01_SKF_FNL_505_A/D01_SKF_FNL_505_A_AP242.stp\", \"tool_ok\": true, \"failure_stage\": \"\", \"kernel\": {\"frontend\": \"FreeCAD\", \"frontend_version\": \"1.1.1\", \"name\": \"OpenCascade\", \"version\": \"7.8.1\"}, \"no_healing_or_sewing\": true, \"shape_type\": \"Compound\", \"is_null\": false, \"validity\": {\"shape_valid\": true, \"all_solids_valid\": true}, \"topology\": {\"solids\": 5, \"shells\": 5, \"faces\": 308, \"edges\": 854, \"vertices\": 566}, \"solid_subset_topology\": {\"faces\": 308, \"edges\": 854, \"vertices\": 566}, \"brep_closure\": {\"closed_shells\": 5, \"open_shells\": 0, \"all_shells_closed\": true, \"all_solids_closed\": true}, \"full_shape_auxiliary\": {\"shells\": 5, \"closed_shells\": 5, \"open_shells\": 0, \"non_solid_shells\": 0}, \"brep_volume\": {\"per_solid\": [114904.8008682304, 43958.559714377305, 550.4613275149968, 550.461327514997, 550.4613275149969], \"total_signed\": 160514.74456515268, \"positive_solids\": 5, \"nonpositive_solids\": 0, \"all_solids_positive\": true}, \"bbox\": {\"min\": [-39.50474504741006, 7.98955003451731, -55.55], \"max\": [61.967918622137795, 69.0, 55.55], \"diagonal\": 162.3643633226942}, \"elapsed_seconds\": 0.47121250000054715}\nFreeCAD 1.1.1, Libs: 1.1.1R20260414 (Git shallow)\n(C) 2001-2026 FreeCAD contributors\nFreeCAD is free and open-source software licensed under the terms of LGPL2+ license.\n\n",
+  "tool_ok": true,
+  "topology": {
+    "edges": 854,
+    "faces": 308,
+    "shells": 5,
+    "solids": 5,
+    "vertices": 566
+  },
+  "validity": {
+    "all_solids_valid": true,
+    "shape_valid": true
+  }
+}

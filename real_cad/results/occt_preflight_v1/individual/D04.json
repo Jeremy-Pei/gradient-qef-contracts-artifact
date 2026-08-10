@@ -1,0 +1,94 @@
+{
+  "admission": {
+    "dual_contouring_candidate": false
+  },
+  "bbox": {
+    "diagonal": 135.84662899122873,
+    "max": [
+      32.5030908520266,
+      69.50309085202659,
+      21.0030908520266
+    ],
+    "min": [
+      -32.503090852026595,
+      -35.003090852026595,
+      -36.503090852026595
+    ]
+  },
+  "brep_closure": {
+    "all_shells_closed": true,
+    "closed_shells": 3,
+    "open_shells": 0
+  },
+  "brep_volume": {
+    "all_solids_positive": true,
+    "epsilon": 2.506955343105468e-09,
+    "nonpositive_solids": 0,
+    "positive_solids": 3,
+    "total_absolute": 118918.92930442459,
+    "total_signed": 118918.92930442459
+  },
+  "corpus_id": "D04",
+  "elapsed_seconds": 0.530228,
+  "exit_code": 0,
+  "expected_sha256": "e0b09ddc264a87a1f12875944e884f84dfa5066d34ab65c569c4a80b995a7bb6",
+  "full_shape_auxiliary": {
+    "closed_shells": 3,
+    "non_solid_shells": 0,
+    "open_shells": 0,
+    "shells": 3
+  },
+  "input_path": "${GRADIENT_QEF_CAD_ROOT}/3Dfindit/D04_BUERKERT_6281_270852/D04_BUERKERT_6281_270852_AP242.stp",
+  "kernel": {
+    "draw_linked": false,
+    "name": "OpenCascade",
+    "version": "7.9.3"
+  },
+  "mesh": {
+    "boundary_edges": 0,
+    "connected_components": 2,
+    "degenerate_triangles_removed": 0,
+    "edge_manifold": false,
+    "meshing_done": true,
+    "nonmanifold_edges": 92,
+    "positive_signed_volume": true,
+    "raw_vertices": 7703,
+    "signed_volume": 118714.98996104547,
+    "surface_area": 29201.006318864096,
+    "triangles": 7394,
+    "unique_edges": 10999,
+    "watertight": true,
+    "weld_tolerance": 1.3584662899122873e-07,
+    "welded_vertices": 3645
+  },
+  "model_name": "Buerkert 2-2-way servo-assisted solenoid valve",
+  "observed_sha256": "e0b09ddc264a87a1f12875944e884f84dfa5066d34ab65c569c4a80b995a7bb6",
+  "official_split": "",
+  "rejection_reason": "mesh_nonmanifold",
+  "runner_status": "completed",
+  "schema": "topic4.occt_step_preflight.v1",
+  "source_group": "3Dfindit",
+  "stderr_tail": "",
+  "stdout_tail": "",
+  "step": {
+    "roots": 1,
+    "transferred_roots": 1
+  },
+  "tool_ok": true,
+  "topology": {
+    "compounds": 1,
+    "compsolids": 0,
+    "edges": 1742,
+    "faces": 341,
+    "shells": 3,
+    "solids": 3,
+    "vertices": 3484
+  },
+  "validity": {
+    "invalid_faces": 0,
+    "invalid_shells": 0,
+    "invalid_solids": 0,
+    "shape_valid": true,
+    "solid_subset_valid": true
+  }
+}

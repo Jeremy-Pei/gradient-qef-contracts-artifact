@@ -1,0 +1,74 @@
+{
+  "baseline_mesh": {
+    "boundary_edges": 0,
+    "degenerate_triangles": 0,
+    "max_abs_surface_distance": 0.8241685413823769,
+    "max_abs_surface_distance_cell_units": 0.6279379362913348,
+    "mean_abs_surface_distance": 0.06389556820662129,
+    "mean_abs_surface_distance_cell_units": 0.04868233768123527,
+    "nonmanifold_edges": 79,
+    "signed_volume": 29427.944113390266,
+    "triangles": 14272,
+    "vertices": 7037
+  },
+  "configuration": {
+    "lambda": 0.1,
+    "padding_voxels": 2,
+    "resolution": 32,
+    "tau_cell_units": 0.1
+  },
+  "contract_fallback_mesh": {
+    "boundary_edges": 0,
+    "degenerate_triangles": 0,
+    "max_abs_surface_distance": 1.0278350763718758,
+    "max_abs_surface_distance_cell_units": 0.7831124391404768,
+    "mean_abs_surface_distance": 0.3401011381367481,
+    "mean_abs_surface_distance_cell_units": 0.25912467667561756,
+    "nonmanifold_edges": 79,
+    "signed_volume": 29524.2973342447,
+    "triangles": 14272,
+    "vertices": 7037
+  },
+  "contract_semantics": "oracle diagnostic only; measured mesh projection and normal errors are not deployable upstream certificates",
+  "corpus_id": "D02",
+  "elapsed_seconds": 0.167061917,
+  "exit_code": 0,
+  "expected_sha256": "f217fcdc3d8d3b78b82e7a62bb2b224c30a0baef71652488129b1a1694c0517a",
+  "grid": {
+    "nx": 37,
+    "ny": 37,
+    "nz": 32,
+    "voxel_size": 1.3125
+  },
+  "input_path": "${GRADIENT_QEF_CAD_ROOT}/3Dfindit/D02_24080-010/D02_24080-010_AP242.stp",
+  "method": "uniform-grid dual contouring with regularized per-cell QEF",
+  "model_name": "norelem fixed bearing flange unit",
+  "pipeline_elapsed_seconds": 0.3638440000013361,
+  "qef": {
+    "active_cells": 7037,
+    "bound_violations": 0,
+    "certified_oracle_diagnostic": 915,
+    "coverage": 0.130027000142106,
+    "median_bound_cell_units": 13.089790040964141,
+    "median_measured_displacement_cell_units": 0.13604045261039702,
+    "median_normal_angle_error_degrees": 5.21826060405576,
+    "median_root_position_error_cell_units": 0.00034593803965844385,
+    "outside_cell_vertices": 975,
+    "p95_bound_cell_units": 109.30305337219295,
+    "p95_measured_displacement_cell_units": 0.6094162166579009,
+    "p95_normal_angle_error_degrees": 44.91773540597678,
+    "p95_root_position_error_cell_units": 0.1248434475955422,
+    "unknown_oracle_diagnostic": 6122
+  },
+  "resolution": 32,
+  "runner_status": "completed",
+  "schema": "topic4.regular_grid_dc.v1",
+  "source_group": "3Dfindit",
+  "source_mesh": {
+    "triangles": 6712,
+    "vertices": 3348
+  },
+  "stderr_tail": "",
+  "stdout_tail": "",
+  "tool_ok": true
+}

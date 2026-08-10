@@ -1,0 +1,94 @@
+{
+  "admission": {
+    "dual_contouring_candidate": false
+  },
+  "bbox": {
+    "diagonal": 153.73154189097139,
+    "max": [
+      42.06875010000007,
+      31.024830100000003,
+      56.356250100000004
+    ],
+    "min": [
+      -42.06875010000007,
+      -31.024830100000003,
+      -56.356250100000004
+    ]
+  },
+  "brep_closure": {
+    "all_shells_closed": true,
+    "closed_shells": 3,
+    "open_shells": 0
+  },
+  "brep_volume": {
+    "all_solids_positive": true,
+    "epsilon": 3.633197019338534e-09,
+    "nonpositive_solids": 0,
+    "positive_solids": 3,
+    "total_absolute": 69520.14943260606,
+    "total_signed": 69520.14943260606
+  },
+  "corpus_id": "T01",
+  "elapsed_seconds": 0.819601375,
+  "exit_code": 0,
+  "expected_sha256": "3010f05fdc8e6722728f1444260780b24edb5ba9ba1cba759eee0ada7955e1fd",
+  "full_shape_auxiliary": {
+    "closed_shells": 3,
+    "non_solid_shells": 0,
+    "open_shells": 0,
+    "shells": 3
+  },
+  "input_path": "${GRADIENT_QEF_CAD_ROOT}/TraceParts/T01_BPFL6-17/T01_BPFL6-17_AP242.stp",
+  "kernel": {
+    "draw_linked": false,
+    "name": "OpenCascade",
+    "version": "7.9.3"
+  },
+  "mesh": {
+    "boundary_edges": 0,
+    "connected_components": 2,
+    "degenerate_triangles_removed": 48,
+    "edge_manifold": false,
+    "meshing_done": true,
+    "nonmanifold_edges": 214,
+    "positive_signed_volume": true,
+    "raw_vertices": 15368,
+    "signed_volume": 69338.27178062833,
+    "surface_area": 43565.99666697884,
+    "triangles": 19368,
+    "unique_edges": 28838,
+    "watertight": true,
+    "weld_tolerance": 1.537315418909714e-07,
+    "welded_vertices": 9518
+  },
+  "model_name": "AMI BPFL6-17 flange-mount bearing unit",
+  "observed_sha256": "3010f05fdc8e6722728f1444260780b24edb5ba9ba1cba759eee0ada7955e1fd",
+  "official_split": "",
+  "rejection_reason": "mesh_nonmanifold",
+  "runner_status": "completed",
+  "schema": "topic4.occt_step_preflight.v1",
+  "source_group": "TraceParts",
+  "stderr_tail": "",
+  "stdout_tail": "",
+  "step": {
+    "roots": 1,
+    "transferred_roots": 1
+  },
+  "tool_ok": true,
+  "topology": {
+    "compounds": 1,
+    "compsolids": 0,
+    "edges": 1688,
+    "faces": 290,
+    "shells": 3,
+    "solids": 3,
+    "vertices": 3376
+  },
+  "validity": {
+    "invalid_faces": 0,
+    "invalid_shells": 0,
+    "invalid_solids": 0,
+    "shape_valid": true,
+    "solid_subset_valid": true
+  }
+}

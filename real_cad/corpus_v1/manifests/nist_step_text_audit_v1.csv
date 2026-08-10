@@ -1,0 +1,12 @@
+corpus_id,filename,manifold_solid_brep_count,brep_with_voids_count,closed_shell_count,advanced_face_count,shell_based_surface_model_count,unit_tokens_observed,kernel_validation_status
+N01,nist_stc_06_asme1_ap242-e3.stp,1,0,1,144,0,mm|inch,pending_freecad_processor_fix
+N02,nist_stc_07_asme1_ap242-e3.stp,1,0,1,306,2,mm|inch,pending_freecad_processor_fix
+N03,nist_stc_08_asme1_ap242-e3.stp,1,0,1,271,1,mm|inch,pending_freecad_processor_fix
+N04,nist_stc_09_asme1_ap242-e3.stp,1,0,1,125,0,mm|inch,pending_freecad_processor_fix
+N05,nist_stc_10_asme1_ap242-e2.stp,1,0,1,256,0,mm,pending_freecad_processor_fix
+N06,nist_ctc_01_asme1_ap242-e1.stp,1,0,1,117,0,mm,pending_freecad_processor_fix
+N07,nist_ctc_02_asme1_ap242-e2.stp,1,0,1,637,2,mm,pending_freecad_processor_fix
+N08,nist_ctc_03_asme1_ap242-e2.stp,1,0,1,120,0,mm|inch,pending_freecad_processor_fix
+N09,nist_ctc_04_asme1_ap242-e1.stp,1,0,1,484,1,mm|m,pending_freecad_processor_fix
+N10,nist_ctc_05_asme1_ap242-e1.stp,1,0,1,156,0,mm|inch,pending_freecad_processor_fix
+N11R,nist_ftc_11_asme1_ap242-e2.stp,1,0,1,42,0,mm,pending_freecad_processor_fix

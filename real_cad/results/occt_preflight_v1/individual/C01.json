@@ -1,0 +1,94 @@
+{
+  "admission": {
+    "dual_contouring_candidate": true
+  },
+  "bbox": {
+    "diagonal": 160.37767956794985,
+    "max": [
+      55.000000099999994,
+      55.00000010000001,
+      39.0000001
+    ],
+    "min": [
+      -55.000000099999994,
+      -55.000000100000015,
+      -1e-07
+    ]
+  },
+  "brep_closure": {
+    "all_shells_closed": true,
+    "closed_shells": 2,
+    "open_shells": 0
+  },
+  "brep_volume": {
+    "all_solids_positive": true,
+    "epsilon": 4.125074312782366e-09,
+    "nonpositive_solids": 0,
+    "positive_solids": 2,
+    "total_absolute": 200934.3071849523,
+    "total_signed": 200934.3071849523
+  },
+  "corpus_id": "C01",
+  "elapsed_seconds": 0.075461666,
+  "exit_code": 0,
+  "expected_sha256": "833ae43ae70cb426dfa0b31f73a9c6115a167339c1188842ff17d0c693abb8e8",
+  "full_shape_auxiliary": {
+    "closed_shells": 2,
+    "non_solid_shells": 0,
+    "open_shells": 0,
+    "shells": 2
+  },
+  "input_path": "${GRADIENT_QEF_CAD_ROOT}/3DContentCentral/C01_UCF_305/C01_UCF_305_AP203.step",
+  "kernel": {
+    "draw_linked": false,
+    "name": "OpenCascade",
+    "version": "7.9.3"
+  },
+  "mesh": {
+    "boundary_edges": 0,
+    "connected_components": 2,
+    "degenerate_triangles_removed": 0,
+    "edge_manifold": true,
+    "meshing_done": true,
+    "nonmanifold_edges": 0,
+    "positive_signed_volume": true,
+    "raw_vertices": 2356,
+    "signed_volume": 200831.85866649685,
+    "surface_area": 43573.20632853891,
+    "triangles": 2664,
+    "unique_edges": 3996,
+    "watertight": true,
+    "weld_tolerance": 1.6037767956794987e-07,
+    "welded_vertices": 1324
+  },
+  "model_name": "Nomo UCF3 flange bearing housing",
+  "observed_sha256": "833ae43ae70cb426dfa0b31f73a9c6115a167339c1188842ff17d0c693abb8e8",
+  "official_split": "",
+  "rejection_reason": "admitted",
+  "runner_status": "completed",
+  "schema": "topic4.occt_step_preflight.v1",
+  "source_group": "3D ContentCentral",
+  "stderr_tail": "",
+  "stdout_tail": "",
+  "step": {
+    "roots": 1,
+    "transferred_roots": 1
+  },
+  "tool_ok": true,
+  "topology": {
+    "compounds": 1,
+    "compsolids": 0,
+    "edges": 268,
+    "faces": 51,
+    "shells": 2,
+    "solids": 2,
+    "vertices": 536
+  },
+  "validity": {
+    "invalid_faces": 0,
+    "invalid_shells": 0,
+    "invalid_solids": 0,
+    "shape_valid": true,
+    "solid_subset_valid": true
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "admission": {
+    "dual_contouring_candidate": false
+  },
+  "bbox": {
+    "diagonal": 464.28649072661284,
+    "max": [
+      144.3376220550076,
+      156.29431294048274,
+      90.05491849984526
+    ],
+    "min": [
+      -179.35744668627072,
+      -156.29431294048274,
+      -24.277049530369503
+    ]
+  },
+  "brep_closure": {
+    "all_shells_closed": true,
+    "closed_shells": 12,
+    "open_shells": 0
+  },
+  "brep_volume": {
+    "all_solids_positive": true,
+    "epsilon": 1.0008249919704033e-07,
+    "nonpositive_solids": 0,
+    "positive_solids": 12,
+    "total_absolute": 493093.6975370041,
+    "total_signed": 493093.6975370041
+  },
+  "corpus_id": "G05",
+  "elapsed_seconds": 3.349515125,
+  "exit_code": 0,
+  "expected_sha256": "a022fd92a470634866f5ee216757731cd7060e2e21318fd86b78566781b9bed9",
+  "full_shape_auxiliary": {
+    "closed_shells": 12,
+    "non_solid_shells": 0,
+    "open_shells": 0,
+    "shells": 12
+  },
+  "input_path": "${GRADIENT_QEF_CAD_ROOT}/GrabCAD/G05_Jet_Impeller/G05_Jet_Impeller.step",
+  "kernel": {
+    "draw_linked": false,
+    "name": "OpenCascade",
+    "version": "7.9.3"
+  },
+  "mesh": {
+    "boundary_edges": 0,
+    "connected_components": 1,
+    "degenerate_triangles_removed": 0,
+    "edge_manifold": false,
+    "meshing_done": true,
+    "nonmanifold_edges": 141,
+    "positive_signed_volume": true,
+    "raw_vertices": 13613,
+    "signed_volume": 495096.70340609644,
+    "surface_area": 181519.33615485576,
+    "triangles": 19064,
+    "unique_edges": 28455,
+    "watertight": true,
+    "weld_tolerance": 4.642864907266129e-07,
+    "welded_vertices": 9309
+  },
+  "model_name": "Jet Impeller",
+  "observed_sha256": "a022fd92a470634866f5ee216757731cd7060e2e21318fd86b78566781b9bed9",
+  "official_split": "",
+  "rejection_reason": "mesh_nonmanifold",
+  "runner_status": "completed",
+  "schema": "topic4.occt_step_preflight.v1",
+  "source_group": "GrabCAD",
+  "stderr_tail": "",
+  "stdout_tail": "",
+  "step": {
+    "roots": 1,
+    "transferred_roots": 1
+  },
+  "tool_ok": true,
+  "topology": {
+    "compounds": 1,
+    "compsolids": 0,
+    "edges": 3814,
+    "faces": 476,
+    "shells": 12,
+    "solids": 12,
+    "vertices": 7628
+  },
+  "validity": {
+    "invalid_faces": 0,
+    "invalid_shells": 0,
+    "invalid_solids": 0,
+    "shape_valid": true,
+    "solid_subset_valid": true
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "admission": {
+    "dual_contouring_candidate": true
+  },
+  "bbox": {
+    "diagonal": 724.2696161820121,
+    "max": [
+      191.05048535007114,
+      178.00358241975212,
+      390.06732557172063
+    ],
+    "min": [
+      -191.05048535007117,
+      -178.0035824197521,
+      -111.75358241975218
+    ]
+  },
+  "brep_closure": {
+    "all_shells_closed": true,
+    "closed_shells": 2,
+    "open_shells": 0
+  },
+  "brep_volume": {
+    "all_solids_positive": true,
+    "epsilon": 3.7992756090401384e-07,
+    "nonpositive_solids": 0,
+    "positive_solids": 1,
+    "total_absolute": 2052587.5263569234,
+    "total_signed": 2052587.5263569234
+  },
+  "corpus_id": "C04",
+  "elapsed_seconds": 24.69718275,
+  "exit_code": 0,
+  "expected_sha256": "ecc920585562b59885a0fcabbd3a87eaadb9cbcc1ec379fd2e4c35922b47c38a",
+  "full_shape_auxiliary": {
+    "closed_shells": 2,
+    "non_solid_shells": 0,
+    "open_shells": 0,
+    "shells": 2
+  },
+  "input_path": "${GRADIENT_QEF_CAD_ROOT}/3DContentCentral/C04_S7215_2_5/C04_S7215_2_5_AP214.step",
+  "kernel": {
+    "draw_linked": false,
+    "name": "OpenCascade",
+    "version": "7.9.3"
+  },
+  "mesh": {
+    "boundary_edges": 0,
+    "connected_components": 2,
+    "degenerate_triangles_removed": 25,
+    "edge_manifold": true,
+    "meshing_done": true,
+    "nonmanifold_edges": 0,
+    "positive_signed_volume": true,
+    "raw_vertices": 95840,
+    "signed_volume": 2043445.3397521176,
+    "surface_area": 400205.2918065765,
+    "triangles": 124558,
+    "unique_edges": 186837,
+    "watertight": true,
+    "weld_tolerance": 7.242696161820121e-07,
+    "welded_vertices": 62203
+  },
+  "model_name": "VSI 2.5-inch S7215 2-Way Ball Valve",
+  "observed_sha256": "ecc920585562b59885a0fcabbd3a87eaadb9cbcc1ec379fd2e4c35922b47c38a",
+  "official_split": "",
+  "rejection_reason": "admitted",
+  "runner_status": "completed",
+  "schema": "topic4.occt_step_preflight.v1",
+  "source_group": "3D ContentCentral",
+  "stderr_tail": "",
+  "stdout_tail": "",
+  "step": {
+    "roots": 1,
+    "transferred_roots": 1
+  },
+  "tool_ok": true,
+  "topology": {
+    "compounds": 0,
+    "compsolids": 0,
+    "edges": 6801,
+    "faces": 1317,
+    "shells": 2,
+    "solids": 1,
+    "vertices": 13602
+  },
+  "validity": {
+    "invalid_faces": 0,
+    "invalid_shells": 0,
+    "invalid_solids": 0,
+    "shape_valid": true,
+    "solid_subset_valid": true
+  }
+}

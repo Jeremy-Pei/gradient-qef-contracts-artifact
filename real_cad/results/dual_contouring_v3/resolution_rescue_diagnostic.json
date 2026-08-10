@@ -1,0 +1,87 @@
+{
+  "generated_utc": "2026-08-10T11:58:09.955395+00:00",
+  "models": [
+    {
+      "attempts": [
+        {
+          "active_cells": 0,
+          "exit_code": 20,
+          "failure_message": "no Hermite roots generated",
+          "oracle_diagnostic_coverage": null,
+          "resolution": 32,
+          "tool_ok": false
+        },
+        {
+          "active_cells": 242,
+          "exit_code": 0,
+          "failure_message": null,
+          "oracle_diagnostic_coverage": 0,
+          "resolution": 48,
+          "tool_ok": true
+        }
+      ],
+      "corpus_id": "F034",
+      "main_failure": "no Hermite roots generated",
+      "main_resolution": 24,
+      "source_group": "Fusion360Gallery"
+    },
+    {
+      "attempts": [
+        {
+          "active_cells": 20,
+          "exit_code": 0,
+          "failure_message": null,
+          "oracle_diagnostic_coverage": 0,
+          "resolution": 32,
+          "tool_ok": true
+        }
+      ],
+      "corpus_id": "F054",
+      "main_failure": "no Hermite roots generated",
+      "main_resolution": 24,
+      "source_group": "Fusion360Gallery"
+    },
+    {
+      "attempts": [
+        {
+          "active_cells": 0,
+          "exit_code": 20,
+          "failure_message": "no Hermite roots generated",
+          "oracle_diagnostic_coverage": null,
+          "resolution": 32,
+          "tool_ok": false
+        },
+        {
+          "active_cells": 192,
+          "exit_code": 0,
+          "failure_message": null,
+          "oracle_diagnostic_coverage": 0,
+          "resolution": 48,
+          "tool_ok": true
+        }
+      ],
+      "corpus_id": "F083",
+      "main_failure": "no Hermite roots generated",
+      "main_resolution": 24,
+      "source_group": "Fusion360Gallery"
+    },
+    {
+      "attempts": [
+        {
+          "active_cells": 84,
+          "exit_code": 0,
+          "failure_message": null,
+          "oracle_diagnostic_coverage": 0,
+          "resolution": 32,
+          "tool_ok": true
+        }
+      ],
+      "corpus_id": "F085",
+      "main_failure": "no Hermite roots generated",
+      "main_resolution": 24,
+      "source_group": "Fusion360Gallery"
+    }
+  ],
+  "role": "diagnostic only; results do not replace failures in the frozen main protocol",
+  "schema": "topic4.regular_grid_dc.resolution_rescue.v1"
+}

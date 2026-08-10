@@ -1,0 +1,74 @@
+{
+  "baseline_mesh": {
+    "boundary_edges": 0,
+    "degenerate_triangles": 0,
+    "max_abs_surface_distance": 1.915702697074025,
+    "max_abs_surface_distance_cell_units": 0.377246069577654,
+    "mean_abs_surface_distance": 0.3365985085720602,
+    "mean_abs_surface_distance_cell_units": 0.06628401399572875,
+    "nonmanifold_edges": 1,
+    "signed_volume": 114408.02386825965,
+    "triangles": 2888,
+    "vertices": 1447
+  },
+  "configuration": {
+    "lambda": 0.1,
+    "padding_voxels": 2,
+    "resolution": 32,
+    "tau_cell_units": 0.1
+  },
+  "contract_fallback_mesh": {
+    "boundary_edges": 0,
+    "degenerate_triangles": 0,
+    "max_abs_surface_distance": 4.1574966056982685,
+    "max_abs_surface_distance_cell_units": 0.8187070238913511,
+    "mean_abs_surface_distance": 1.3061484170439024,
+    "mean_abs_surface_distance_cell_units": 0.2572107652024915,
+    "nonmanifold_edges": 1,
+    "signed_volume": 117198.5462884369,
+    "triangles": 2888,
+    "vertices": 1447
+  },
+  "contract_semantics": "oracle diagnostic only; measured mesh projection and normal errors are not deployable upstream certificates",
+  "corpus_id": "G01",
+  "elapsed_seconds": 0.0561235,
+  "exit_code": 0,
+  "expected_sha256": "f96e89c85cc84ba2b5d7a87e50b27c6432ed64dde60ee14a70cb1df38743d4f0",
+  "grid": {
+    "nx": 37,
+    "ny": 31,
+    "nz": 18,
+    "voxel_size": 5.078125000000002
+  },
+  "input_path": "${GRADIENT_QEF_CAD_ROOT}/GrabCAD/G01_L_Bracket_Gusset/G01_L_Bracket_Gusset.step",
+  "method": "uniform-grid dual contouring with regularized per-cell QEF",
+  "model_name": "L-Bracket with Triangular Gusset",
+  "pipeline_elapsed_seconds": 0.20681208399946627,
+  "qef": {
+    "active_cells": 1447,
+    "bound_violations": 0,
+    "certified_oracle_diagnostic": 178,
+    "coverage": 0.12301313061506565,
+    "median_bound_cell_units": 26.704445921382455,
+    "median_measured_displacement_cell_units": 0.19227504525371147,
+    "median_normal_angle_error_degrees": 10.29770158871207,
+    "median_root_position_error_cell_units": 0.00023503535735783161,
+    "outside_cell_vertices": 198,
+    "p95_bound_cell_units": 87.45186353149377,
+    "p95_measured_displacement_cell_units": 0.5522935938314872,
+    "p95_normal_angle_error_degrees": 44.28709126293439,
+    "p95_root_position_error_cell_units": 0.1661538461538454,
+    "unknown_oracle_diagnostic": 1269
+  },
+  "resolution": 32,
+  "runner_status": "completed",
+  "schema": "topic4.regular_grid_dc.v1",
+  "source_group": "GrabCAD",
+  "source_mesh": {
+    "triangles": 1742,
+    "vertices": 865
+  },
+  "stderr_tail": "",
+  "stdout_tail": "",
+  "tool_ok": true
+}

@@ -1,0 +1,74 @@
+{
+  "baseline_mesh": {
+    "boundary_edges": 0,
+    "degenerate_triangles": 0,
+    "max_abs_surface_distance": 3.4791678481345363,
+    "max_abs_surface_distance_cell_units": 0.47375902612895804,
+    "mean_abs_surface_distance": 0.7387632527983108,
+    "mean_abs_surface_distance_cell_units": 0.10059754931721676,
+    "nonmanifold_edges": 234,
+    "signed_volume": 482578.92913364584,
+    "triangles": 6840,
+    "vertices": 3131
+  },
+  "configuration": {
+    "lambda": 0.1,
+    "padding_voxels": 2,
+    "resolution": 32,
+    "tau_cell_units": 0.1
+  },
+  "contract_fallback_mesh": {
+    "boundary_edges": 0,
+    "degenerate_triangles": 0,
+    "max_abs_surface_distance": 6.046876286554037,
+    "max_abs_surface_distance_cell_units": 0.8234044305094856,
+    "mean_abs_surface_distance": 2.1323611222338212,
+    "mean_abs_surface_distance_cell_units": 0.29036406770843515,
+    "nonmanifold_edges": 234,
+    "signed_volume": 524493.9607358265,
+    "triangles": 6840,
+    "vertices": 3131
+  },
+  "contract_semantics": "oracle diagnostic only; measured mesh projection and normal errors are not deployable upstream certificates",
+  "corpus_id": "G03",
+  "elapsed_seconds": 0.078416459,
+  "exit_code": 0,
+  "expected_sha256": "60a2e3d6bb15c9866b62cc2c97a84faf785163b321e6cde51246b1ce4ddb9f01",
+  "grid": {
+    "nx": 26,
+    "ny": 37,
+    "nz": 37,
+    "voxel_size": 7.343750000000002
+  },
+  "input_path": "${GRADIENT_QEF_CAD_ROOT}/GrabCAD/G03_Flanged_Elbow_50mm/G03_Flanged_Elbow_50mm.step",
+  "method": "uniform-grid dual contouring with regularized per-cell QEF",
+  "model_name": "50 mm 90-Degree Flanged Pipe Elbow",
+  "pipeline_elapsed_seconds": 0.19384024999999383,
+  "qef": {
+    "active_cells": 3131,
+    "bound_violations": 0,
+    "certified_oracle_diagnostic": 152,
+    "coverage": 0.04854679016288726,
+    "median_bound_cell_units": 19.343974149066764,
+    "median_measured_displacement_cell_units": 0.20058670297668202,
+    "median_normal_angle_error_degrees": 7.516289441385032,
+    "median_root_position_error_cell_units": 0.007311770811930171,
+    "outside_cell_vertices": 650,
+    "p95_bound_cell_units": 64.3975516733338,
+    "p95_measured_displacement_cell_units": 0.5813596734747667,
+    "p95_normal_angle_error_degrees": 31.95901064848086,
+    "p95_root_position_error_cell_units": 0.21012083123358133,
+    "unknown_oracle_diagnostic": 2979
+  },
+  "resolution": 32,
+  "runner_status": "completed",
+  "schema": "topic4.regular_grid_dc.v1",
+  "source_group": "GrabCAD",
+  "source_mesh": {
+    "triangles": 4016,
+    "vertices": 1984
+  },
+  "stderr_tail": "",
+  "stdout_tail": "",
+  "tool_ok": true
+}

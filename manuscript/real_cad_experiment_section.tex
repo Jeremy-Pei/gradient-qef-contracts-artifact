@@ -1,0 +1,105 @@
+% Generated from frozen JSON and integrated in the post-v5 manuscript.
+\section{Real-CAD end-to-end audit}
+\label{sec:real-cad-audit}
+
+We additionally audited a frozen corpus of 528 STEP files: 28 manually curated
+public or industrial models and a deterministic 500-model Fusion~360 Gallery
+sample.  OpenCascade~7.9.3 imported all files.  The complete imported shapes and
+the extracted solid subsets passed the kernel validity check, and every solid
+subset had closed shells and positive B-rep volume.  Without healing, sewing,
+or fusion, the derived-mesh gate admitted 511 models; eight meshes had boundary
+edges and nine had non-manifold edges.  All failures remain in the denominator.
+The frozen 50-to-28 manual-candidate ledger records all 33 STEP members of the
+NIST archive and all 17 external download receipts, together with each inclusion
+or exclusion reason.  Before verification, the archive and all 528 selected
+STEP inputs are independently rehashed against their receipts or deterministic
+Fusion sample manifest.
+
+\begin{table}[t]
+\centering
+\caption{No-healing preflight admission by source. Boundary and non-manifold
+columns are mutually exclusive rejection reasons.}
+\label{tab:real-cad-admission}
+\begin{tabular}{lrrrr}
+\toprule
+Source & Total & Admitted & Boundary & Non-manifold \\
+\midrule
+3D ContentCentral & 4 & 4 & 0 & 0 \\
+3Dfindit & 4 & 1 & 0 & 3 \\
+Fusion360Gallery & 500 & 489 & 8 & 3 \\
+GrabCAD & 5 & 4 & 0 & 1 \\
+NIST & 11 & 11 & 0 & 0 \\
+TraceParts & 4 & 2 & 0 & 2 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=\linewidth]{../figures/fig_real_cad_experiment_v1_scaled.pdf}
+\caption{Real-CAD audit.  (a) The no-healing STEP/B-rep preflight retains all
+528 inputs in the denominator and admits 511 derived meshes.  (b) The fixed
+regular-grid run completes 118 of 122 selected models; the four coarse-grid
+misses reappear at resolution 32 or 48 in a diagnostic-only ladder.  (c)
+Oracle-diagnostic QEF coverage varies by source.  Because the source mesh
+provides the reference closest point and pseudo-normal, these coverage values
+are not deployable certificates.}
+\label{fig:real-cad-audit}
+\end{figure}
+
+An isolated FreeCAD~1.1.1 pipeline backed by OpenCascade~7.8.1 also imported all
+528 files.  The two pipelines agreed on validity, solid/shell/face counts,
+auxiliary-shell inventory, closure, and positive-volume classification; every
+B-rep volume pair agreed within \(10^{-4}\) relative error (maximum
+5.99e-05).  This is a
+cross-version and cross-frontend consistency check within the OpenCascade
+family, not an independent second-kernel result.
+
+The end-to-end arm used all 22 admitted manual models and the first 100 admitted
+Fusion rows in frozen sample order.  Manual and Fusion models used respectively
+32 and 24 cells along the longest box axis.  Each isolated run performed STEP
+import, solid-subset tessellation, signed-distance sampling, Hermite extraction,
+regularized per-cell QEF solution (\(\lambda=0.1\)), and uniform-grid Dual
+Contouring connectivity.
+
+\begin{table}[t]
+\centering
+\caption{Real-CAD end-to-end results. Coverage uses the source mesh as an
+oracle and is not a deployable certificate.}
+\label{tab:real-cad-dc}
+\begin{tabular}{lrrrr}
+\toprule
+Source & Selected & Completed & Active cells & Coverage \\
+\midrule
+3D ContentCentral & 4 & 4 & 11,522 & 36.07\% \\
+3Dfindit & 1 & 1 & 7,037 & 13.00\% \\
+Fusion360Gallery & 100 & 96 & 99,516 & 25.53\% \\
+GrabCAD & 4 & 4 & 15,125 & 14.66\% \\
+NIST & 11 & 11 & 20,387 & 14.76\% \\
+TraceParts & 2 & 2 & 8,629 & 13.50\% \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+The main run completed 118/122 models.  Four thin or anisotropic Fusion parts
+had no grid-node sign change at resolution 24; a diagnostic-only ladder recovered
+two at resolution 32 and two at resolution 48, without replacing the four main
+failures.  Across 162,216 active cells, 36,866 met the \(\tau=0.10\)
+oracle-diagnostic bound (22.73\% pooled coverage), and the complete displacement
+bound had zero violations.  The model-wise median coverage was 13.76\%.
+The model-median normal-angle error was 3.72 degrees, while the 95th percentile
+across model-level 95th-percentile errors was 74.29 degrees.
+
+The extracted meshes had zero boundary edges and zero degenerate triangles, but
+2,632 non-manifold edges across 79/118 completed models.  This exposes a
+connectivity limitation of standard sign-pattern Dual Contouring rather than a
+contract failure, and motivates manifold or adaptive connectivity in future
+work.  The median model mean surface error was 0.0462 cell units.
+
+The real-CAD files do not provide certified value and gradient budgets.  We
+therefore use source-mesh closest points and pseudo-normals only to audit the
+theorem-to-implementation chain.  These measured errors are nondeployable and
+must not be labelled \Certified.  An explicit cell-centre fallback for
+\Unknown cells increased the median mean error from 0.0462 to
+0.2842 cell units, confirming that the contract is a status and
+admission mechanism rather than an automatic geometry repair.

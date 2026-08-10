@@ -1,0 +1,94 @@
+{
+  "admission": {
+    "dual_contouring_candidate": true
+  },
+  "bbox": {
+    "diagonal": 150.3581317592953,
+    "max": [
+      40.894000100000014,
+      20.3200001,
+      20.3200001
+    ],
+    "min": [
+      -61.46800010000001,
+      -82.04200010000001,
+      -20.320000100000005
+    ]
+  },
+  "brep_closure": {
+    "all_shells_closed": true,
+    "closed_shells": 1,
+    "open_shells": 0
+  },
+  "brep_volume": {
+    "all_solids_positive": true,
+    "epsilon": 3.3992316559464812e-09,
+    "nonpositive_solids": 0,
+    "positive_solids": 1,
+    "total_absolute": 59222.64126461405,
+    "total_signed": 59222.64126461405
+  },
+  "corpus_id": "T02",
+  "elapsed_seconds": 0.060727584,
+  "exit_code": 0,
+  "expected_sha256": "d3f4876b2f4660daaba091e27a40159aa55b30014d88913fae61b7f5bd976452",
+  "full_shape_auxiliary": {
+    "closed_shells": 1,
+    "non_solid_shells": 0,
+    "open_shells": 0,
+    "shells": 1
+  },
+  "input_path": "${GRADIENT_QEF_CAD_ROOT}/TraceParts/T02_MAS-3000-EL90-P12/T02_MAS-3000-EL90-P12_AP242.stp",
+  "kernel": {
+    "draw_linked": false,
+    "name": "OpenCascade",
+    "version": "7.9.3"
+  },
+  "mesh": {
+    "boundary_edges": 0,
+    "connected_components": 1,
+    "degenerate_triangles_removed": 0,
+    "edge_manifold": true,
+    "meshing_done": true,
+    "nonmanifold_edges": 0,
+    "positive_signed_volume": true,
+    "raw_vertices": 3608,
+    "signed_volume": 58959.571027337006,
+    "surface_area": 34753.85851843607,
+    "triangles": 4654,
+    "unique_edges": 6981,
+    "watertight": true,
+    "weld_tolerance": 1.5035813175929532e-07,
+    "welded_vertices": 2327
+  },
+  "model_name": "Lokring 90-degree elbow",
+  "observed_sha256": "d3f4876b2f4660daaba091e27a40159aa55b30014d88913fae61b7f5bd976452",
+  "official_split": "",
+  "rejection_reason": "admitted",
+  "runner_status": "completed",
+  "schema": "topic4.occt_step_preflight.v1",
+  "source_group": "TraceParts",
+  "stderr_tail": "",
+  "stdout_tail": "",
+  "step": {
+    "roots": 1,
+    "transferred_roots": 1
+  },
+  "tool_ok": true,
+  "topology": {
+    "compounds": 0,
+    "compsolids": 0,
+    "edges": 206,
+    "faces": 50,
+    "shells": 1,
+    "solids": 1,
+    "vertices": 412
+  },
+  "validity": {
+    "invalid_faces": 0,
+    "invalid_shells": 0,
+    "invalid_solids": 0,
+    "shape_valid": true,
+    "solid_subset_valid": true
+  }
+}

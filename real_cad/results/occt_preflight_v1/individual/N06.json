@@ -1,0 +1,94 @@
+{
+  "admission": {
+    "dual_contouring_candidate": true
+  },
+  "bbox": {
+    "diagonal": 930.053762187972,
+    "max": [
+      400.0000001,
+      225.0000001000001,
+      50.00000010000004
+    ],
+    "min": [
+      -400.00000010000025,
+      -225.0000001000002,
+      -100.0000001
+    ]
+  },
+  "brep_closure": {
+    "all_shells_closed": true,
+    "closed_shells": 1,
+    "open_shells": 0
+  },
+  "brep_volume": {
+    "all_solids_positive": true,
+    "epsilon": 8.044965048134267e-07,
+    "nonpositive_solids": 0,
+    "positive_solids": 1,
+    "total_absolute": 14644823.305612635,
+    "total_signed": 14644823.305612635
+  },
+  "corpus_id": "N06",
+  "elapsed_seconds": 0.179898542,
+  "exit_code": 0,
+  "expected_sha256": "85a5752da05f53c456ca3a9e038c90358e1d5a3141d1f0d6e5f0970f2356e821",
+  "full_shape_auxiliary": {
+    "closed_shells": 1,
+    "non_solid_shells": 0,
+    "open_shells": 0,
+    "shells": 1
+  },
+  "input_path": "${LOCAL_PROJECT_ROOT}/g-p-6a39e656c2e8819185c3e09837052bc0/research/topic4_v5/real_cad_experiment/corpus_v1/originals/nist/N06/nist_ctc_01_asme1_ap242-e1.stp",
+  "kernel": {
+    "draw_linked": false,
+    "name": "OpenCascade",
+    "version": "7.9.3"
+  },
+  "mesh": {
+    "boundary_edges": 0,
+    "connected_components": 1,
+    "degenerate_triangles_removed": 4,
+    "edge_manifold": true,
+    "meshing_done": true,
+    "nonmanifold_edges": 0,
+    "positive_signed_volume": true,
+    "raw_vertices": 3224,
+    "signed_volume": 14641578.881266564,
+    "surface_area": 806847.8859309177,
+    "triangles": 3096,
+    "unique_edges": 4644,
+    "watertight": true,
+    "weld_tolerance": 9.30053762187972e-07,
+    "welded_vertices": 1530
+  },
+  "model_name": "CTC-01",
+  "observed_sha256": "85a5752da05f53c456ca3a9e038c90358e1d5a3141d1f0d6e5f0970f2356e821",
+  "official_split": "",
+  "rejection_reason": "admitted",
+  "runner_status": "completed",
+  "schema": "topic4.occt_step_preflight.v1",
+  "source_group": "NIST",
+  "stderr_tail": "",
+  "stdout_tail": "",
+  "step": {
+    "roots": 1,
+    "transferred_roots": 1
+  },
+  "tool_ok": true,
+  "topology": {
+    "compounds": 1,
+    "compsolids": 0,
+    "edges": 640,
+    "faces": 117,
+    "shells": 1,
+    "solids": 1,
+    "vertices": 1281
+  },
+  "validity": {
+    "invalid_faces": 0,
+    "invalid_shells": 0,
+    "invalid_solids": 0,
+    "shape_valid": true,
+    "solid_subset_valid": true
+  }
+}

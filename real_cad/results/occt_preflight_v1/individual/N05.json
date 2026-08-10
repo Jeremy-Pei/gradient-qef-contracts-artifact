@@ -1,0 +1,94 @@
+{
+  "admission": {
+    "dual_contouring_candidate": true
+  },
+  "bbox": {
+    "diagonal": 179.6866562765784,
+    "max": [
+      158.74198604417782,
+      31.65959910214257,
+      75.74198604417784
+    ],
+    "min": [
+      -0.7419860441778391,
+      -0.00045624154628584097,
+      -0.7419860441778284
+    ]
+  },
+  "brep_closure": {
+    "all_shells_closed": true,
+    "closed_shells": 1,
+    "open_shells": 0
+  },
+  "brep_volume": {
+    "all_solids_positive": true,
+    "epsilon": 5.801595978834053e-09,
+    "nonpositive_solids": 0,
+    "positive_solids": 1,
+    "total_absolute": 188312.81311697522,
+    "total_signed": 188312.81311697522
+  },
+  "corpus_id": "N05",
+  "elapsed_seconds": 0.471235834,
+  "exit_code": 0,
+  "expected_sha256": "fba4f46cab1ce1402362038036884631b4a41afe1c9efc5681d358c39db7ed5f",
+  "full_shape_auxiliary": {
+    "closed_shells": 1,
+    "non_solid_shells": 0,
+    "open_shells": 0,
+    "shells": 1
+  },
+  "input_path": "${LOCAL_PROJECT_ROOT}/g-p-6a39e656c2e8819185c3e09837052bc0/research/topic4_v5/real_cad_experiment/corpus_v1/originals/nist/N05/nist_stc_10_asme1_ap242-e2.stp",
+  "kernel": {
+    "draw_linked": false,
+    "name": "OpenCascade",
+    "version": "7.9.3"
+  },
+  "mesh": {
+    "boundary_edges": 0,
+    "connected_components": 1,
+    "degenerate_triangles_removed": 16,
+    "edge_manifold": true,
+    "meshing_done": true,
+    "nonmanifold_edges": 0,
+    "positive_signed_volume": true,
+    "raw_vertices": 16590,
+    "signed_volume": 188393.94779493072,
+    "surface_area": 48459.84479937331,
+    "triangles": 20926,
+    "unique_edges": 31389,
+    "watertight": true,
+    "weld_tolerance": 1.796866562765784e-07,
+    "welded_vertices": 10421
+  },
+  "model_name": "STC-10",
+  "observed_sha256": "fba4f46cab1ce1402362038036884631b4a41afe1c9efc5681d358c39db7ed5f",
+  "official_split": "",
+  "rejection_reason": "admitted",
+  "runner_status": "completed",
+  "schema": "topic4.occt_step_preflight.v1",
+  "source_group": "NIST",
+  "stderr_tail": "",
+  "stdout_tail": "\u001b[32;1m*** ERR StepReaderData : Unresolved Reference : Fails Count : 1 ***\u001b[0m\n",
+  "step": {
+    "roots": 1,
+    "transferred_roots": 1
+  },
+  "tool_ok": true,
+  "topology": {
+    "compounds": 1,
+    "compsolids": 0,
+    "edges": 1268,
+    "faces": 256,
+    "shells": 1,
+    "solids": 1,
+    "vertices": 2536
+  },
+  "validity": {
+    "invalid_faces": 0,
+    "invalid_shells": 0,
+    "invalid_solids": 0,
+    "shape_valid": true,
+    "solid_subset_valid": true
+  }
+}

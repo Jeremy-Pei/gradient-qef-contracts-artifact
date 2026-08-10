@@ -1,0 +1,74 @@
+{
+  "baseline_mesh": {
+    "boundary_edges": 0,
+    "degenerate_triangles": 0,
+    "max_abs_surface_distance": 0.4743338933319293,
+    "max_abs_surface_distance_cell_units": 0.5692006719983151,
+    "mean_abs_surface_distance": 0.10806534166554202,
+    "mean_abs_surface_distance_cell_units": 0.1296784099986504,
+    "nonmanifold_edges": 2,
+    "signed_volume": 3.552500620926524,
+    "triangles": 264,
+    "vertices": 138
+  },
+  "configuration": {
+    "lambda": 0.1,
+    "padding_voxels": 2,
+    "resolution": 24,
+    "tau_cell_units": 0.1
+  },
+  "contract_fallback_mesh": {
+    "boundary_edges": 0,
+    "degenerate_triangles": 0,
+    "max_abs_surface_distance": 0.6400955795440064,
+    "max_abs_surface_distance_cell_units": 0.7681146954528076,
+    "mean_abs_surface_distance": 0.26145231762763255,
+    "mean_abs_surface_distance_cell_units": 0.31374278115315907,
+    "nonmanifold_edges": 2,
+    "signed_volume": 14.41330931452339,
+    "triangles": 264,
+    "vertices": 138
+  },
+  "contract_semantics": "oracle diagnostic only; measured mesh projection and normal errors are not deployable upstream certificates",
+  "corpus_id": "F064",
+  "elapsed_seconds": 0.001752875,
+  "exit_code": 0,
+  "expected_sha256": "1aca5c071ba0e15d216ba390290355be0e21c4335b83e7126805fc375558176a",
+  "grid": {
+    "nx": 10,
+    "ny": 6,
+    "nz": 29,
+    "voxel_size": 0.8333333333333334
+  },
+  "input_path": "${GRADIENT_QEF_CAD_ROOT}/Fusion360Gallery/s2.0.1_extended_step/sample_500/step/56248_b358425c_4.stp",
+  "method": "uniform-grid dual contouring with regularized per-cell QEF",
+  "model_name": "56248_b358425c_4",
+  "pipeline_elapsed_seconds": 0.08185958399917581,
+  "qef": {
+    "active_cells": 138,
+    "bound_violations": 0,
+    "certified_oracle_diagnostic": 40,
+    "coverage": 0.2898550724637681,
+    "median_bound_cell_units": 88.53616247405995,
+    "median_measured_displacement_cell_units": 0.5179156527513769,
+    "median_normal_angle_error_degrees": 22.223764546821435,
+    "median_root_position_error_cell_units": 7.450581884782541e-09,
+    "outside_cell_vertices": 53,
+    "p95_bound_cell_units": 168.9205491805795,
+    "p95_measured_displacement_cell_units": 0.7992887006808346,
+    "p95_normal_angle_error_degrees": 57.57190824061562,
+    "p95_root_position_error_cell_units": 7.45166368609773e-09,
+    "unknown_oracle_diagnostic": 98
+  },
+  "resolution": 24,
+  "runner_status": "completed",
+  "schema": "topic4.regular_grid_dc.v1",
+  "source_group": "Fusion360Gallery",
+  "source_mesh": {
+    "triangles": 44,
+    "vertices": 24
+  },
+  "stderr_tail": "",
+  "stdout_tail": "",
+  "tool_ok": true
+}

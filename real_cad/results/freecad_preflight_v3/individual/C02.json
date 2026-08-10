@@ -1,0 +1,78 @@
+{
+  "bbox": {
+    "diagonal": 103.92304845413267,
+    "max": [
+      60.0,
+      60.0,
+      60.00000000000002
+    ],
+    "min": [
+      -1.4654943925052066e-14,
+      -3.735076484212563e-15,
+      -9.325873406851315e-15
+    ]
+  },
+  "brep_closure": {
+    "all_shells_closed": true,
+    "all_solids_closed": true,
+    "closed_shells": 3,
+    "open_shells": 0
+  },
+  "brep_volume": {
+    "all_solids_positive": true,
+    "nonpositive_solids": 0,
+    "per_solid": [
+      1670.1875513337961,
+      1670.187551333796,
+      43711.31286492884
+    ],
+    "positive_solids": 3,
+    "total_signed": 47051.68796759643
+  },
+  "corpus_id": "C02",
+  "elapsed_seconds": 0.6146574580016022,
+  "exit_code": 0,
+  "expected_sha256": "cec3150c76e253c18d359966b2b1c164f4a5def3df507a1e74d1c83541a1c8a0",
+  "failure_stage": "",
+  "full_shape_auxiliary": {
+    "closed_shells": 3,
+    "non_solid_shells": 0,
+    "open_shells": 0,
+    "shells": 3
+  },
+  "input_path": "${GRADIENT_QEF_CAD_ROOT}/3DContentCentral/C02_Angle_Bracket_0_0_003_20/C02_Angle_Bracket_0_0_003_20_AP203.step",
+  "is_null": false,
+  "kernel": {
+    "frontend": "FreeCAD",
+    "frontend_version": "1.1.1",
+    "name": "OpenCascade",
+    "version": "7.8.1"
+  },
+  "model_name": "item Angle Bracket",
+  "no_healing_or_sewing": true,
+  "observed_sha256": "cec3150c76e253c18d359966b2b1c164f4a5def3df507a1e74d1c83541a1c8a0",
+  "official_split": "",
+  "runner_status": "completed",
+  "schema": "topic4.freecad_step_preflight.v1",
+  "shape_type": "Compound",
+  "solid_subset_topology": {
+    "edges": 114,
+    "faces": 45,
+    "vertices": 78
+  },
+  "source_group": "3D ContentCentral",
+  "stderr_tail": "",
+  "stdout_tail": "TOPIC4_FREECAD_PREFLIGHT={\"schema\": \"topic4.freecad_step_preflight.v1\", \"corpus_id\": \"C02\", \"source_group\": \"3D ContentCentral\", \"input_path\": \"${GRADIENT_QEF_CAD_ROOT}/3DContentCentral/C02_Angle_Bracket_0_0_003_20/C02_Angle_Bracket_0_0_003_20_AP203.step\", \"tool_ok\": true, \"failure_stage\": \"\", \"kernel\": {\"frontend\": \"FreeCAD\", \"frontend_version\": \"1.1.1\", \"name\": \"OpenCascade\", \"version\": \"7.8.1\"}, \"no_healing_or_sewing\": true, \"shape_type\": \"Compound\", \"is_null\": false, \"validity\": {\"shape_valid\": true, \"all_solids_valid\": true}, \"topology\": {\"solids\": 3, \"shells\": 3, \"faces\": 45, \"edges\": 114, \"vertices\": 78}, \"solid_subset_topology\": {\"faces\": 45, \"edges\": 114, \"vertices\": 78}, \"brep_closure\": {\"closed_shells\": 3, \"open_shells\": 0, \"all_shells_closed\": true, \"all_solids_closed\": true}, \"full_shape_auxiliary\": {\"shells\": 3, \"closed_shells\": 3, \"open_shells\": 0, \"non_solid_shells\": 0}, \"brep_volume\": {\"per_solid\": [1670.1875513337961, 1670.187551333796, 43711.31286492884], \"total_signed\": 47051.68796759643, \"positive_solids\": 3, \"nonpositive_solids\": 0, \"all_solids_positive\": true}, \"bbox\": {\"min\": [-1.4654943925052066e-14, -3.735076484212563e-15, -9.325873406851315e-15], \"max\": [60.0, 60.0, 60.00000000000002], \"diagonal\": 103.92304845413267}, \"elapsed_seconds\": 0.19271691600079066}\nFreeCAD 1.1.1, Libs: 1.1.1R20260414 (Git shallow)\n(C) 2001-2026 FreeCAD contributors\nFreeCAD is free and open-source software licensed under the terms of LGPL2+ license.\n\n",
+  "tool_ok": true,
+  "topology": {
+    "edges": 114,
+    "faces": 45,
+    "shells": 3,
+    "solids": 3,
+    "vertices": 78
+  },
+  "validity": {
+    "all_solids_valid": true,
+    "shape_valid": true
+  }
+}

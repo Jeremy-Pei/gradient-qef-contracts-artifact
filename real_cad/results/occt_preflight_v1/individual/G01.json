@@ -1,0 +1,94 @@
+{
+  "admission": {
+    "dual_contouring_candidate": true
+  },
+  "bbox": {
+    "diagonal": 218.16622136160316,
+    "max": [
+      12.500000100000042,
+      17.50000010000001,
+      62.500000100000015
+    ],
+    "min": [
+      -150.0000001,
+      -112.50000010000002,
+      -3.0000001
+    ]
+  },
+  "brep_closure": {
+    "all_shells_closed": true,
+    "closed_shells": 1,
+    "open_shells": 0
+  },
+  "brep_volume": {
+    "all_solids_positive": true,
+    "epsilon": 1.0383948586278957e-08,
+    "nonpositive_solids": 0,
+    "positive_solids": 1,
+    "total_absolute": 119301.67595452264,
+    "total_signed": 119301.67595452264
+  },
+  "corpus_id": "G01",
+  "elapsed_seconds": 0.05946375,
+  "exit_code": 0,
+  "expected_sha256": "f96e89c85cc84ba2b5d7a87e50b27c6432ed64dde60ee14a70cb1df38743d4f0",
+  "full_shape_auxiliary": {
+    "closed_shells": 1,
+    "non_solid_shells": 0,
+    "open_shells": 0,
+    "shells": 1
+  },
+  "input_path": "${GRADIENT_QEF_CAD_ROOT}/GrabCAD/G01_L_Bracket_Gusset/G01_L_Bracket_Gusset.step",
+  "kernel": {
+    "draw_linked": false,
+    "name": "OpenCascade",
+    "version": "7.9.3"
+  },
+  "mesh": {
+    "boundary_edges": 0,
+    "connected_components": 1,
+    "degenerate_triangles_removed": 0,
+    "edge_manifold": true,
+    "meshing_done": true,
+    "nonmanifold_edges": 0,
+    "positive_signed_volume": true,
+    "raw_vertices": 1814,
+    "signed_volume": 119223.38867003548,
+    "surface_area": 38722.10630275993,
+    "triangles": 1742,
+    "unique_edges": 2613,
+    "watertight": true,
+    "weld_tolerance": 2.1816622136160319e-07,
+    "welded_vertices": 865
+  },
+  "model_name": "L-Bracket with Triangular Gusset",
+  "observed_sha256": "f96e89c85cc84ba2b5d7a87e50b27c6432ed64dde60ee14a70cb1df38743d4f0",
+  "official_split": "",
+  "rejection_reason": "admitted",
+  "runner_status": "completed",
+  "schema": "topic4.occt_step_preflight.v1",
+  "source_group": "GrabCAD",
+  "stderr_tail": "",
+  "stdout_tail": "",
+  "step": {
+    "roots": 1,
+    "transferred_roots": 1
+  },
+  "tool_ok": true,
+  "topology": {
+    "compounds": 0,
+    "compsolids": 0,
+    "edges": 248,
+    "faces": 44,
+    "shells": 1,
+    "solids": 1,
+    "vertices": 496
+  },
+  "validity": {
+    "invalid_faces": 0,
+    "invalid_shells": 0,
+    "invalid_solids": 0,
+    "shape_valid": true,
+    "solid_subset_valid": true
+  }
+}

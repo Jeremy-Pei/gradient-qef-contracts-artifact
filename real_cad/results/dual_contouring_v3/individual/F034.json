@@ -1,0 +1,17 @@
+{
+  "corpus_id": "F034",
+  "exit_code": 20,
+  "expected_sha256": "6a3a38e623a1b773710e24891a583e02110b2e1552649b960ed7fec5e7cf655f",
+  "failure_message": "no Hermite roots generated",
+  "failure_stage": "grid_sampling",
+  "input_path": "${GRADIENT_QEF_CAD_ROOT}/Fusion360Gallery/s2.0.1_extended_step/sample_500/step/35145_a3d7363c_11.stp",
+  "model_name": "35145_a3d7363c_11",
+  "pipeline_elapsed_seconds": 0.10100708299978578,
+  "resolution": 24,
+  "runner_status": "no_zero_crossing_at_resolution",
+  "schema": "topic4.regular_grid_dc.v1",
+  "source_group": "Fusion360Gallery",
+  "stderr_tail": "no Hermite roots generated\n",
+  "stdout_tail": "",
+  "tool_ok": false
+}

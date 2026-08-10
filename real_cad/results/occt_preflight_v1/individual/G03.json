@@ -1,0 +1,94 @@
+{
+  "admission": {
+    "dual_contouring_candidate": true
+  },
+  "bbox": {
+    "diagonal": 364.6230934101679,
+    "max": [
+      75.0000001,
+      75.00000010000005,
+      225.0000001
+    ],
+    "min": [
+      -75.0000001,
+      -160.00000010000002,
+      -10.000000100000006
+    ]
+  },
+  "brep_closure": {
+    "all_shells_closed": true,
+    "closed_shells": 1,
+    "open_shells": 0
+  },
+  "brep_volume": {
+    "all_solids_positive": true,
+    "epsilon": 4.847664035930836e-08,
+    "nonpositive_solids": 0,
+    "positive_solids": 1,
+    "total_absolute": 558765.1921548154,
+    "total_signed": 558765.1921548154
+  },
+  "corpus_id": "G03",
+  "elapsed_seconds": 0.044532834,
+  "exit_code": 0,
+  "expected_sha256": "60a2e3d6bb15c9866b62cc2c97a84faf785163b321e6cde51246b1ce4ddb9f01",
+  "full_shape_auxiliary": {
+    "closed_shells": 1,
+    "non_solid_shells": 0,
+    "open_shells": 0,
+    "shells": 1
+  },
+  "input_path": "${GRADIENT_QEF_CAD_ROOT}/GrabCAD/G03_Flanged_Elbow_50mm/G03_Flanged_Elbow_50mm.step",
+  "kernel": {
+    "draw_linked": false,
+    "name": "OpenCascade",
+    "version": "7.9.3"
+  },
+  "mesh": {
+    "boundary_edges": 0,
+    "connected_components": 1,
+    "degenerate_triangles_removed": 0,
+    "edge_manifold": true,
+    "meshing_done": true,
+    "nonmanifold_edges": 0,
+    "positive_signed_volume": true,
+    "raw_vertices": 3378,
+    "signed_volume": 556297.5624822519,
+    "surface_area": 151339.5429725678,
+    "triangles": 4016,
+    "unique_edges": 6024,
+    "watertight": true,
+    "weld_tolerance": 3.646230934101679e-07,
+    "welded_vertices": 1984
+  },
+  "model_name": "50 mm 90-Degree Flanged Pipe Elbow",
+  "observed_sha256": "60a2e3d6bb15c9866b62cc2c97a84faf785163b321e6cde51246b1ce4ddb9f01",
+  "official_split": "",
+  "rejection_reason": "admitted",
+  "runner_status": "completed",
+  "schema": "topic4.occt_step_preflight.v1",
+  "source_group": "GrabCAD",
+  "stderr_tail": "",
+  "stdout_tail": "",
+  "step": {
+    "roots": 1,
+    "transferred_roots": 1
+  },
+  "tool_ok": true,
+  "topology": {
+    "compounds": 0,
+    "compsolids": 0,
+    "edges": 140,
+    "faces": 24,
+    "shells": 1,
+    "solids": 1,
+    "vertices": 280
+  },
+  "validity": {
+    "invalid_faces": 0,
+    "invalid_shells": 0,
+    "invalid_solids": 0,
+    "shape_valid": true,
+    "solid_subset_valid": true
+  }
+}

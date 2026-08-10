@@ -1,0 +1,94 @@
+{
+  "admission": {
+    "dual_contouring_candidate": true
+  },
+  "bbox": {
+    "diagonal": 68.94200495779043,
+    "max": [
+      21.000000100000005,
+      21.0000001,
+      27.5000001
+    ],
+    "min": [
+      -21.0000001,
+      -21.0000001,
+      -7.5000001
+    ]
+  },
+  "brep_closure": {
+    "all_shells_closed": true,
+    "closed_shells": 1,
+    "open_shells": 0
+  },
+  "brep_volume": {
+    "all_solids_positive": true,
+    "epsilon": 3.2768135284601743e-10,
+    "nonpositive_solids": 0,
+    "positive_solids": 1,
+    "total_absolute": 29370.5253744438,
+    "total_signed": 29370.5253744438
+  },
+  "corpus_id": "D02",
+  "elapsed_seconds": 0.104759417,
+  "exit_code": 0,
+  "expected_sha256": "f217fcdc3d8d3b78b82e7a62bb2b224c30a0baef71652488129b1a1694c0517a",
+  "full_shape_auxiliary": {
+    "closed_shells": 1,
+    "non_solid_shells": 0,
+    "open_shells": 0,
+    "shells": 1
+  },
+  "input_path": "${GRADIENT_QEF_CAD_ROOT}/3Dfindit/D02_24080-010/D02_24080-010_AP242.stp",
+  "kernel": {
+    "draw_linked": false,
+    "name": "OpenCascade",
+    "version": "7.9.3"
+  },
+  "mesh": {
+    "boundary_edges": 0,
+    "connected_components": 1,
+    "degenerate_triangles_removed": 0,
+    "edge_manifold": true,
+    "meshing_done": true,
+    "nonmanifold_edges": 0,
+    "positive_signed_volume": true,
+    "raw_vertices": 5720,
+    "signed_volume": 29347.766433246587,
+    "surface_area": 10636.033613572728,
+    "triangles": 6712,
+    "unique_edges": 10068,
+    "watertight": true,
+    "weld_tolerance": 6.894200495779043e-08,
+    "welded_vertices": 3348
+  },
+  "model_name": "norelem fixed bearing flange unit",
+  "observed_sha256": "f217fcdc3d8d3b78b82e7a62bb2b224c30a0baef71652488129b1a1694c0517a",
+  "official_split": "",
+  "rejection_reason": "admitted",
+  "runner_status": "completed",
+  "schema": "topic4.occt_step_preflight.v1",
+  "source_group": "3Dfindit",
+  "stderr_tail": "",
+  "stdout_tail": "",
+  "step": {
+    "roots": 1,
+    "transferred_roots": 1
+  },
+  "tool_ok": true,
+  "topology": {
+    "compounds": 0,
+    "compsolids": 0,
+    "edges": 418,
+    "faces": 98,
+    "shells": 1,
+    "solids": 1,
+    "vertices": 836
+  },
+  "validity": {
+    "invalid_faces": 0,
+    "invalid_shells": 0,
+    "invalid_solids": 0,
+    "shape_valid": true,
+    "solid_subset_valid": true
+  }
+}

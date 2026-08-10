@@ -1,0 +1,76 @@
+{
+  "bbox": {
+    "diagonal": 90.85656334596858,
+    "max": [
+      28.321,
+      28.321000000000005,
+      6.660868029665668e-15
+    ],
+    "min": [
+      -28.321,
+      -28.320999999999998,
+      -42.8752
+    ]
+  },
+  "brep_closure": {
+    "all_shells_closed": true,
+    "all_solids_closed": true,
+    "closed_shells": 1,
+    "open_shells": 0
+  },
+  "brep_volume": {
+    "all_solids_positive": true,
+    "nonpositive_solids": 0,
+    "per_solid": [
+      50067.31352027917
+    ],
+    "positive_solids": 1,
+    "total_signed": 50067.31352027917
+  },
+  "corpus_id": "T03",
+  "elapsed_seconds": 0.3381353330005368,
+  "exit_code": 0,
+  "expected_sha256": "5f4e1fd4987f71c4cb6b42ba209bf8e36c1a8fdb0b3cfcf4247ccb62136b426a",
+  "failure_stage": "",
+  "full_shape_auxiliary": {
+    "closed_shells": 1,
+    "non_solid_shells": 0,
+    "open_shells": 0,
+    "shells": 1
+  },
+  "input_path": "${GRADIENT_QEF_CAD_ROOT}/TraceParts/T03_5EFL008REM/T03_5EFL008REM_AP242.stp",
+  "is_null": false,
+  "kernel": {
+    "frontend": "FreeCAD",
+    "frontend_version": "1.1.1",
+    "name": "OpenCascade",
+    "version": "7.8.1"
+  },
+  "model_name": "Stafford Flange Adapter Max",
+  "no_healing_or_sewing": true,
+  "observed_sha256": "5f4e1fd4987f71c4cb6b42ba209bf8e36c1a8fdb0b3cfcf4247ccb62136b426a",
+  "official_split": "",
+  "runner_status": "completed",
+  "schema": "topic4.freecad_step_preflight.v1",
+  "shape_type": "Solid",
+  "solid_subset_topology": {
+    "edges": 270,
+    "faces": 119,
+    "vertices": 176
+  },
+  "source_group": "TraceParts",
+  "stderr_tail": "",
+  "stdout_tail": "TOPIC4_FREECAD_PREFLIGHT={\"schema\": \"topic4.freecad_step_preflight.v1\", \"corpus_id\": \"T03\", \"source_group\": \"TraceParts\", \"input_path\": \"${GRADIENT_QEF_CAD_ROOT}/TraceParts/T03_5EFL008REM/T03_5EFL008REM_AP242.stp\", \"tool_ok\": true, \"failure_stage\": \"\", \"kernel\": {\"frontend\": \"FreeCAD\", \"frontend_version\": \"1.1.1\", \"name\": \"OpenCascade\", \"version\": \"7.8.1\"}, \"no_healing_or_sewing\": true, \"shape_type\": \"Solid\", \"is_null\": false, \"validity\": {\"shape_valid\": true, \"all_solids_valid\": true}, \"topology\": {\"solids\": 1, \"shells\": 1, \"faces\": 119, \"edges\": 270, \"vertices\": 176}, \"solid_subset_topology\": {\"faces\": 119, \"edges\": 270, \"vertices\": 176}, \"brep_closure\": {\"closed_shells\": 1, \"open_shells\": 0, \"all_shells_closed\": true, \"all_solids_closed\": true}, \"full_shape_auxiliary\": {\"shells\": 1, \"closed_shells\": 1, \"open_shells\": 0, \"non_solid_shells\": 0}, \"brep_volume\": {\"per_solid\": [50067.31352027917], \"total_signed\": 50067.31352027917, \"positive_solids\": 1, \"nonpositive_solids\": 0, \"all_solids_positive\": true}, \"bbox\": {\"min\": [-28.321, -28.320999999999998, -42.8752], \"max\": [28.321, 28.321000000000005, 6.660868029665668e-15], \"diagonal\": 90.85656334596858}, \"elapsed_seconds\": 0.13165591700089863}\nFreeCAD 1.1.1, Libs: 1.1.1R20260414 (Git shallow)\n(C) 2001-2026 FreeCAD contributors\nFreeCAD is free and open-source software licensed under the terms of LGPL2+ license.\n\n",
+  "tool_ok": true,
+  "topology": {
+    "edges": 270,
+    "faces": 119,
+    "shells": 1,
+    "solids": 1,
+    "vertices": 176
+  },
+  "validity": {
+    "all_solids_valid": true,
+    "shape_valid": true
+  }
+}

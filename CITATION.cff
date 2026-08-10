@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this artifact, please cite the accompanying manuscript."
+title: "Reproducibility artifact for Fail-Closed Gradient-to-QEF Contracts for Approximate Implicit CSG"
+type: software
+authors:
+  - family-names: Pei
+    given-names: Jeremy
+    orcid: "https://orcid.org/0000-0002-0201-6255"
+repository-code: "https://github.com/Jeremy-Pei/gradient-qef-contracts-artifact"
+version: "1.0.0"
+date-released: "2026-08-10"
+keywords:
+  - implicit surfaces
+  - constructive solid geometry
+  - Dual Contouring
+  - quadratic error functions
+  - verified geometry
+
